@@ -1,0 +1,2511 @@
+Folder PATH listing
+Volume serial number is CC0F-A9D0
+C:.
+¦   about_us.html
+¦   about_us.php
+¦   app.js
+¦   apurbo- Lab report-4( MAD).pdf
+¦   auth.php
+¦   card1.html
+¦   card2.html
+¦   card3.html
+¦   composer.json
+¦   composer.lock
+¦   contact_us.html
+¦   contact_us.php
+¦   dashboard.php
+¦   debug_mail.php
+¦   destination.css
+¦   destination.html
+¦   destination.php
+¦   directory_structure.txt
+¦   forgot_password.php
+¦   index.html
+¦   index.php
+¦   inner.php
+¦   language.js
+¦   login.html
+¦   login.js
+¦   login.php
+¦   login_process.php
+¦   logout.php
+¦   Main Updated CV.docx - Google Docs.pdf
+¦   menu.js
+¦   process_forgot_password.php
+¦   process_reset_password.php
+¦   profile.css
+¦   profile.html
+¦   profile.php
+¦   register.html
+¦   register.php
+¦   register_process.php
+¦   reset_password.php
+¦   reset_process.php
+¦   scripts.js
+¦   signin.css
+¦   style.css
+¦   validate_firebase_token.php
+¦   verify_email.php
+¦   
++---api
+¦       save_user.php
+¦       
++---auth
+¦       authHandler.js
+¦       verify_google_login.php
+¦       
++---components
+¦   ¦   chatbot.php
+¦   ¦   destination-layout.php
+¦   ¦   footer.php
+¦   ¦   header.php
+¦   ¦   inner.php
+¦   ¦   nav.php
+¦   ¦   
+¦   +---dashboard
+¦           booking_history.php
+¦           payment_info.php
+¦           profile_settings.php
+¦           tour_history.php
+¦           upcoming_tours.php
+¦           
++---config
+¦       auth.php
+¦       bd_travel.sql
+¦       db.php
+¦       firebase-config.js
+¦       init_db.php
+¦       mail_config.php
+¦       session.php
+¦       users(1).sql
+¦       users(2).sql
+¦       
++---css
+¦       auth.css
+¦       contact.css
+¦       dashboard.css
+¦       destination.css
+¦       footer.css
+¦       nav.css
+¦       style.css
+¦       
++---C?laragonwwwbackup
++---C?laragonwwwbackuptravel-website-backup-
++---helpers
+¦       EmailHelper.php
+¦       
++---images
+¦       0d8cc865-9728-4920-9ce2-da5a7f896d28.jpg
+¦       a738fa26-522a-4c34-bdc2-3710300bb76a.jpg
+¦       banglar-tajmohol.webp
+¦       c2d0859e-5b6b-4536-8e21-8568d8ce3018.jpg
+¦       chatbot.jpg
+¦       coxs-bazar.png
+¦       d522b19d-235a-4a2d-b8dc-d08cf8f95287.jpg
+¦       discount.jpg
+¦       discount.png
+¦       facebook.png
+¦       fc054949-d114-4574-be76-98f1275a2e07.jpg
+¦       github.png
+¦       linkedin.png
+¦       logo.png
+¦       promo.jpg
+¦       sajek-valley.jpg
+¦       screenshot_1.png
+¦       screenshot_2.png
+¦       screenshot_3.png
+¦       shishu-park.png
+¦       sonargaon-museum.webp
+¦       sundarban.webp
+¦       twitter.png
+¦       
++---js
+¦       auth-state.js
+¦       auth.js
+¦       carousel.js
+¦       dashboard.js
+¦       firebase-config.js
+¦       logout.js
+¦       nav.js
+¦       
++---profile_tab
+¦       booking.css
+¦       booking.html
+¦       booking.js
+¦       chatbot.css
+¦       chatbot.js
+¦       general.css
+¦       main.html
+¦       payment.html
+¦       payment.js
+¦       profile.js
+¦       styles.css
+¦       tour_packages.css
+¦       tour_packages.html
+¦       tour_packages.js
+¦       
++---vendor
+    ¦   autoload.php
+    ¦   
+    +---beste
+    ¦   +---clock
+    ¦   ¦   ¦   CHANGELOG.md
+    ¦   ¦   ¦   composer.json
+    ¦   ¦   ¦   LICENSE
+    ¦   ¦   ¦   README.md
+    ¦   ¦   ¦   
+    ¦   ¦   +---.github
+    ¦   ¦   ¦   ¦   dependabot.yml
+    ¦   ¦   ¦   ¦   settings.yml
+    ¦   ¦   ¦   ¦   
+    ¦   ¦   ¦   +---workflows
+    ¦   ¦   ¦           dependabot-auto-merge.yml
+    ¦   ¦   ¦           tests.yml
+    ¦   ¦   ¦           
+    ¦   ¦   +---src
+    ¦   ¦       ¦   Clock.php
+    ¦   ¦       ¦   
+    ¦   ¦       +---Clock
+    ¦   ¦               FrozenClock.php
+    ¦   ¦               LocalizedClock.php
+    ¦   ¦               MinuteClock.php
+    ¦   ¦               SystemClock.php
+    ¦   ¦               UTCClock.php
+    ¦   ¦               WrappingClock.php
+    ¦   ¦               
+    ¦   +---in-memory-cache
+    ¦   ¦   ¦   CHANGELOG.md
+    ¦   ¦   ¦   composer.json
+    ¦   ¦   ¦   LICENSE
+    ¦   ¦   ¦   README.md
+    ¦   ¦   ¦   
+    ¦   ¦   +---src
+    ¦   ¦           CacheItem.php
+    ¦   ¦           CacheKey.php
+    ¦   ¦           InMemoryCache.php
+    ¦   ¦           InvalidArgument.php
+    ¦   ¦           
+    ¦   +---json
+    ¦       ¦   CHANGELOG.md
+    ¦       ¦   composer.json
+    ¦       ¦   LICENSE
+    ¦       ¦   phpunit.xml.dist
+    ¦       ¦   README.md
+    ¦       ¦   SECURITY.md
+    ¦       ¦   
+    ¦       +---.github
+    ¦       ¦   ¦   dependabot.yml
+    ¦       ¦   ¦   FUNDING.yml
+    ¦       ¦   ¦   settings.yml
+    ¦       ¦   ¦   
+    ¦       ¦   +---workflows
+    ¦       ¦           dependabot-auto-merge.yml
+    ¦       ¦           tests.yml
+    ¦       ¦           
+    ¦       +---src
+    ¦               Json.php
+    ¦               
+    +---bin
+    ¦       google-cloud-batch
+    ¦       google-cloud-batch.bat
+    ¦       jp.php
+    ¦       jp.php.bat
+    ¦       
+    +---brick
+    ¦   +---math
+    ¦       ¦   CHANGELOG.md
+    ¦       ¦   composer.json
+    ¦       ¦   LICENSE
+    ¦       ¦   
+    ¦       +---src
+    ¦           ¦   BigDecimal.php
+    ¦           ¦   BigInteger.php
+    ¦           ¦   BigNumber.php
+    ¦           ¦   BigRational.php
+    ¦           ¦   RoundingMode.php
+    ¦           ¦   
+    ¦           +---Exception
+    ¦           ¦       DivisionByZeroException.php
+    ¦           ¦       IntegerOverflowException.php
+    ¦           ¦       MathException.php
+    ¦           ¦       NegativeNumberException.php
+    ¦           ¦       NumberFormatException.php
+    ¦           ¦       RoundingNecessaryException.php
+    ¦           ¦       
+    ¦           +---Internal
+    ¦               ¦   Calculator.php
+    ¦               ¦   
+    ¦               +---Calculator
+    ¦                       BcMathCalculator.php
+    ¦                       GmpCalculator.php
+    ¦                       NativeCalculator.php
+    ¦                       
+    +---composer
+    ¦       autoload_classmap.php
+    ¦       autoload_files.php
+    ¦       autoload_namespaces.php
+    ¦       autoload_psr4.php
+    ¦       autoload_real.php
+    ¦       autoload_static.php
+    ¦       ClassLoader.php
+    ¦       installed.json
+    ¦       installed.php
+    ¦       InstalledVersions.php
+    ¦       LICENSE
+    ¦       platform_check.php
+    ¦       
+    +---fig
+    ¦   +---http-message-util
+    ¦       ¦   .gitignore
+    ¦       ¦   CHANGELOG.md
+    ¦       ¦   composer.json
+    ¦       ¦   LICENSE
+    ¦       ¦   README.md
+    ¦       ¦   
+    ¦       +---src
+    ¦               RequestMethodInterface.php
+    ¦               StatusCodeInterface.php
+    ¦               
+    +---firebase
+    ¦   +---php-jwt
+    ¦       ¦   CHANGELOG.md
+    ¦       ¦   composer.json
+    ¦       ¦   LICENSE
+    ¦       ¦   README.md
+    ¦       ¦   
+    ¦       +---src
+    ¦               BeforeValidException.php
+    ¦               CachedKeySet.php
+    ¦               ExpiredException.php
+    ¦               JWK.php
+    ¦               JWT.php
+    ¦               JWTExceptionWithPayloadInterface.php
+    ¦               Key.php
+    ¦               SignatureInvalidException.php
+    ¦               
+    +---google
+    ¦   +---auth
+    ¦   ¦   ¦   autoload.php
+    ¦   ¦   ¦   composer.json
+    ¦   ¦   ¦   COPYING
+    ¦   ¦   ¦   LICENSE
+    ¦   ¦   ¦   README.md
+    ¦   ¦   ¦   SECURITY.md
+    ¦   ¦   ¦   VERSION
+    ¦   ¦   ¦   
+    ¦   ¦   +---src
+    ¦   ¦       ¦   AccessToken.php
+    ¦   ¦       ¦   ApplicationDefaultCredentials.php
+    ¦   ¦       ¦   CacheTrait.php
+    ¦   ¦       ¦   CredentialsLoader.php
+    ¦   ¦       ¦   ExternalAccountCredentialSourceInterface.php
+    ¦   ¦       ¦   FetchAuthTokenCache.php
+    ¦   ¦       ¦   FetchAuthTokenInterface.php
+    ¦   ¦       ¦   GCECache.php
+    ¦   ¦       ¦   GetQuotaProjectInterface.php
+    ¦   ¦       ¦   GetUniverseDomainInterface.php
+    ¦   ¦       ¦   Iam.php
+    ¦   ¦       ¦   IamSignerTrait.php
+    ¦   ¦       ¦   MetricsTrait.php
+    ¦   ¦       ¦   OAuth2.php
+    ¦   ¦       ¦   ProjectIdProviderInterface.php
+    ¦   ¦       ¦   ServiceAccountSignerTrait.php
+    ¦   ¦       ¦   SignBlobInterface.php
+    ¦   ¦       ¦   UpdateMetadataInterface.php
+    ¦   ¦       ¦   UpdateMetadataTrait.php
+    ¦   ¦       ¦   
+    ¦   ¦       +---Cache
+    ¦   ¦       ¦       FileSystemCacheItemPool.php
+    ¦   ¦       ¦       InvalidArgumentException.php
+    ¦   ¦       ¦       Item.php
+    ¦   ¦       ¦       MemoryCacheItemPool.php
+    ¦   ¦       ¦       SysVCacheItemPool.php
+    ¦   ¦       ¦       TypedItem.php
+    ¦   ¦       ¦       
+    ¦   ¦       +---Credentials
+    ¦   ¦       ¦       AppIdentityCredentials.php
+    ¦   ¦       ¦       ExternalAccountCredentials.php
+    ¦   ¦       ¦       GCECredentials.php
+    ¦   ¦       ¦       IAMCredentials.php
+    ¦   ¦       ¦       ImpersonatedServiceAccountCredentials.php
+    ¦   ¦       ¦       InsecureCredentials.php
+    ¦   ¦       ¦       ServiceAccountCredentials.php
+    ¦   ¦       ¦       ServiceAccountJwtAccessCredentials.php
+    ¦   ¦       ¦       UserRefreshCredentials.php
+    ¦   ¦       ¦       
+    ¦   ¦       +---CredentialSource
+    ¦   ¦       ¦       AwsNativeSource.php
+    ¦   ¦       ¦       ExecutableSource.php
+    ¦   ¦       ¦       FileSource.php
+    ¦   ¦       ¦       UrlSource.php
+    ¦   ¦       ¦       
+    ¦   ¦       +---ExecutableHandler
+    ¦   ¦       ¦       ExecutableHandler.php
+    ¦   ¦       ¦       ExecutableResponseError.php
+    ¦   ¦       ¦       
+    ¦   ¦       +---HttpHandler
+    ¦   ¦       ¦       Guzzle6HttpHandler.php
+    ¦   ¦       ¦       Guzzle7HttpHandler.php
+    ¦   ¦       ¦       HttpClientCache.php
+    ¦   ¦       ¦       HttpHandlerFactory.php
+    ¦   ¦       ¦       
+    ¦   ¦       +---Middleware
+    ¦   ¦               AuthTokenMiddleware.php
+    ¦   ¦               ProxyAuthTokenMiddleware.php
+    ¦   ¦               ScopedAccessTokenMiddleware.php
+    ¦   ¦               SimpleMiddleware.php
+    ¦   ¦               
+    ¦   +---cloud-core
+    ¦   ¦   ¦   .gitattributes
+    ¦   ¦   ¦   CODE_OF_CONDUCT.md
+    ¦   ¦   ¦   composer.json
+    ¦   ¦   ¦   CONTRIBUTING.md
+    ¦   ¦   ¦   LICENSE
+    ¦   ¦   ¦   perf-bootstrap.php
+    ¦   ¦   ¦   README.md
+    ¦   ¦   ¦   SECURITY.md
+    ¦   ¦   ¦   snippet-bootstrap.php
+    ¦   ¦   ¦   system-bootstrap.php
+    ¦   ¦   ¦   unit-bootstrap.php
+    ¦   ¦   ¦   VERSION
+    ¦   ¦   ¦   
+    ¦   ¦   +---bin
+    ¦   ¦   ¦       google-cloud-batch
+    ¦   ¦   ¦       
+    ¦   ¦   +---src
+    ¦   ¦       ¦   AnonymousCredentials.php
+    ¦   ¦       ¦   ApiHelperTrait.php
+    ¦   ¦       ¦   ArrayTrait.php
+    ¦   ¦       ¦   Blob.php
+    ¦   ¦       ¦   CallTrait.php
+    ¦   ¦       ¦   ClientTrait.php
+    ¦   ¦       ¦   ConcurrencyControlTrait.php
+    ¦   ¦       ¦   DebugInfoTrait.php
+    ¦   ¦       ¦   DetectProjectIdTrait.php
+    ¦   ¦       ¦   Duration.php
+    ¦   ¦       ¦   EmulatorTrait.php
+    ¦   ¦       ¦   ExponentialBackoff.php
+    ¦   ¦       ¦   GeoPoint.php
+    ¦   ¦       ¦   GrpcRequestWrapper.php
+    ¦   ¦       ¦   GrpcTrait.php
+    ¦   ¦       ¦   InsecureCredentialsWrapper.php
+    ¦   ¦       ¦   Int64.php
+    ¦   ¦       ¦   JsonTrait.php
+    ¦   ¦       ¦   PhpArray.php
+    ¦   ¦       ¦   RequestBuilder.php
+    ¦   ¦       ¦   RequestHandler.php
+    ¦   ¦       ¦   RequestProcessorTrait.php
+    ¦   ¦       ¦   RequestWrapper.php
+    ¦   ¦       ¦   RequestWrapperTrait.php
+    ¦   ¦       ¦   RestTrait.php
+    ¦   ¦       ¦   Retry.php
+    ¦   ¦       ¦   RetryDeciderTrait.php
+    ¦   ¦       ¦   ServiceBuilder.php
+    ¦   ¦       ¦   SysvTrait.php
+    ¦   ¦       ¦   Timestamp.php
+    ¦   ¦       ¦   TimestampTrait.php
+    ¦   ¦       ¦   TimeTrait.php
+    ¦   ¦       ¦   UriTrait.php
+    ¦   ¦       ¦   ValidateTrait.php
+    ¦   ¦       ¦   ValueMapperTrait.php
+    ¦   ¦       ¦   WhitelistTrait.php
+    ¦   ¦       ¦   
+    ¦   ¦       +---Batch
+    ¦   ¦       ¦       BatchDaemon.php
+    ¦   ¦       ¦       BatchDaemonTrait.php
+    ¦   ¦       ¦       BatchJob.php
+    ¦   ¦       ¦       BatchRunner.php
+    ¦   ¦       ¦       BatchTrait.php
+    ¦   ¦       ¦       ClosureSerializerInterface.php
+    ¦   ¦       ¦       ConfigStorageInterface.php
+    ¦   ¦       ¦       HandleFailureTrait.php
+    ¦   ¦       ¦       InMemoryConfigStorage.php
+    ¦   ¦       ¦       InterruptTrait.php
+    ¦   ¦       ¦       JobConfig.php
+    ¦   ¦       ¦       JobInterface.php
+    ¦   ¦       ¦       JobTrait.php
+    ¦   ¦       ¦       OpisClosureSerializer.php
+    ¦   ¦       ¦       ProcessItemInterface.php
+    ¦   ¦       ¦       QueueOverflowException.php
+    ¦   ¦       ¦       Retry.php
+    ¦   ¦       ¦       SerializableClientTrait.php
+    ¦   ¦       ¦       SimpleJob.php
+    ¦   ¦       ¦       SimpleJobTrait.php
+    ¦   ¦       ¦       SysvConfigStorage.php
+    ¦   ¦       ¦       SysvProcessor.php
+    ¦   ¦       ¦       
+    ¦   ¦       +---Compute
+    ¦   ¦       ¦   ¦   Metadata.php
+    ¦   ¦       ¦   ¦   
+    ¦   ¦       ¦   +---Metadata
+    ¦   ¦       ¦       +---Readers
+    ¦   ¦       ¦               HttpHandlerReader.php
+    ¦   ¦       ¦               ReaderInterface.php
+    ¦   ¦       ¦               StreamReader.php
+    ¦   ¦       ¦               
+    ¦   ¦       +---Exception
+    ¦   ¦       ¦       AbortedException.php
+    ¦   ¦       ¦       BadRequestException.php
+    ¦   ¦       ¦       ConflictException.php
+    ¦   ¦       ¦       DeadlineExceededException.php
+    ¦   ¦       ¦       FailedPreconditionException.php
+    ¦   ¦       ¦       GoogleException.php
+    ¦   ¦       ¦       NotFoundException.php
+    ¦   ¦       ¦       ServerException.php
+    ¦   ¦       ¦       ServiceException.php
+    ¦   ¦       ¦       
+    ¦   ¦       +---Iam
+    ¦   ¦       ¦       Iam.php
+    ¦   ¦       ¦       IamConnectionInterface.php
+    ¦   ¦       ¦       IamManager.php
+    ¦   ¦       ¦       PolicyBuilder.php
+    ¦   ¦       ¦       
+    ¦   ¦       +---Iterator
+    ¦   ¦       ¦       ItemIterator.php
+    ¦   ¦       ¦       ItemIteratorTrait.php
+    ¦   ¦       ¦       PageIterator.php
+    ¦   ¦       ¦       PageIteratorTrait.php
+    ¦   ¦       ¦       
+    ¦   ¦       +---Lock
+    ¦   ¦       ¦       FlockLock.php
+    ¦   ¦       ¦       LockInterface.php
+    ¦   ¦       ¦       LockTrait.php
+    ¦   ¦       ¦       SemaphoreLock.php
+    ¦   ¦       ¦       SymfonyLockAdapter.php
+    ¦   ¦       ¦       
+    ¦   ¦       +---Logger
+    ¦   ¦       ¦       AppEngineFlexFormatter.php
+    ¦   ¦       ¦       AppEngineFlexFormatterV2.php
+    ¦   ¦       ¦       AppEngineFlexFormatterV3.php
+    ¦   ¦       ¦       AppEngineFlexHandler.php
+    ¦   ¦       ¦       AppEngineFlexHandlerFactory.php
+    ¦   ¦       ¦       AppEngineFlexHandlerV2.php
+    ¦   ¦       ¦       AppEngineFlexHandlerV3.php
+    ¦   ¦       ¦       FormatterTrait.php
+    ¦   ¦       ¦       
+    ¦   ¦       +---LongRunning
+    ¦   ¦       ¦       LongRunningConnectionInterface.php
+    ¦   ¦       ¦       LongRunningOperation.php
+    ¦   ¦       ¦       LROTrait.php
+    ¦   ¦       ¦       OperationResponseTrait.php
+    ¦   ¦       ¦       
+    ¦   ¦       +---Report
+    ¦   ¦       ¦       CloudRunMetadataProvider.php
+    ¦   ¦       ¦       EmptyMetadataProvider.php
+    ¦   ¦       ¦       GAEFlexMetadataProvider.php
+    ¦   ¦       ¦       GAEMetadataProvider.php
+    ¦   ¦       ¦       GAEStandardMetadataProvider.php
+    ¦   ¦       ¦       MetadataProviderInterface.php
+    ¦   ¦       ¦       MetadataProviderUtils.php
+    ¦   ¦       ¦       SimpleMetadataProvider.php
+    ¦   ¦       ¦       
+    ¦   ¦       +---Testing
+    ¦   ¦       ¦   ¦   ArrayHasSameValuesToken.php
+    ¦   ¦       ¦   ¦   CheckForClassTrait.php
+    ¦   ¦       ¦   ¦   DatastoreOperationRefreshTrait.php
+    ¦   ¦       ¦   ¦   FileListFilterIterator.php
+    ¦   ¦       ¦   ¦   GcTestListener.php
+    ¦   ¦       ¦   ¦   GrpcTestTrait.php
+    ¦   ¦       ¦   ¦   KeyPairGenerateTrait.php
+    ¦   ¦       ¦   ¦   README.md
+    ¦   ¦       ¦   ¦   RegexFileFilter.php
+    ¦   ¦       ¦   ¦   StubTrait.php
+    ¦   ¦       ¦   ¦   TestHelpers.php
+    ¦   ¦       ¦   ¦   
+    ¦   ¦       ¦   +---Lock
+    ¦   ¦       ¦   ¦       MockGlobals.php
+    ¦   ¦       ¦   ¦       MockValues.php
+    ¦   ¦       ¦   ¦       
+    ¦   ¦       ¦   +---Reflection
+    ¦   ¦       ¦   ¦       DescriptionFactory.php
+    ¦   ¦       ¦   ¦       ReflectionHandlerFactory.php
+    ¦   ¦       ¦   ¦       ReflectionHandlerV5.php
+    ¦   ¦       ¦   ¦       
+    ¦   ¦       ¦   +---Snippet
+    ¦   ¦       ¦   ¦   ¦   Container.php
+    ¦   ¦       ¦   ¦   ¦   Fixtures.php
+    ¦   ¦       ¦   ¦   ¦   keyfile-stub.json
+    ¦   ¦       ¦   ¦   ¦   SnippetTestCase.php
+    ¦   ¦       ¦   ¦   ¦   
+    ¦   ¦       ¦   ¦   +---Coverage
+    ¦   ¦       ¦   ¦   ¦       Coverage.php
+    ¦   ¦       ¦   ¦   ¦       ExcludeFilter.php
+    ¦   ¦       ¦   ¦   ¦       Scanner.php
+    ¦   ¦       ¦   ¦   ¦       ScannerInterface.php
+    ¦   ¦       ¦   ¦   ¦       
+    ¦   ¦       ¦   ¦   +---Parser
+    ¦   ¦       ¦   ¦           InvokeResult.php
+    ¦   ¦       ¦   ¦           Parser.php
+    ¦   ¦       ¦   ¦           Snippet.php
+    ¦   ¦       ¦   ¦           
+    ¦   ¦       ¦   +---System
+    ¦   ¦       ¦           DeletionQueue.php
+    ¦   ¦       ¦           KeyManager.php
+    ¦   ¦       ¦           SystemTestCase.php
+    ¦   ¦       ¦           
+    ¦   ¦       +---Upload
+    ¦   ¦               AbstractUploader.php
+    ¦   ¦               MultipartUploader.php
+    ¦   ¦               ResumableUploader.php
+    ¦   ¦               SignedUrlUploader.php
+    ¦   ¦               StreamableUploader.php
+    ¦   ¦               
+    ¦   +---cloud-storage
+    ¦   ¦   ¦   .gitattributes
+    ¦   ¦   ¦   CODE_OF_CONDUCT.md
+    ¦   ¦   ¦   composer.json
+    ¦   ¦   ¦   CONTRIBUTING.md
+    ¦   ¦   ¦   LICENSE
+    ¦   ¦   ¦   README.md
+    ¦   ¦   ¦   SECURITY.md
+    ¦   ¦   ¦   VERSION
+    ¦   ¦   ¦   
+    ¦   ¦   +---src
+    ¦   ¦       ¦   Acl.php
+    ¦   ¦       ¦   Bucket.php
+    ¦   ¦       ¦   CreatedHmacKey.php
+    ¦   ¦       ¦   EncryptionTrait.php
+    ¦   ¦       ¦   HmacKey.php
+    ¦   ¦       ¦   Lifecycle.php
+    ¦   ¦       ¦   Notification.php
+    ¦   ¦       ¦   ObjectIterator.php
+    ¦   ¦       ¦   ObjectPageIterator.php
+    ¦   ¦       ¦   ReadStream.php
+    ¦   ¦       ¦   SigningHelper.php
+    ¦   ¦       ¦   StorageClient.php
+    ¦   ¦       ¦   StorageObject.php
+    ¦   ¦       ¦   StreamWrapper.php
+    ¦   ¦       ¦   WriteStream.php
+    ¦   ¦       ¦   
+    ¦   ¦       +---Connection
+    ¦   ¦           ¦   ConnectionInterface.php
+    ¦   ¦           ¦   IamBucket.php
+    ¦   ¦           ¦   Rest.php
+    ¦   ¦           ¦   RetryTrait.php
+    ¦   ¦           ¦   
+    ¦   ¦           +---ServiceDefinition
+    ¦   ¦                   storage-v1.json
+    ¦   ¦                   
+    ¦   +---common-protos
+    ¦   ¦   ¦   CHANGELOG.md
+    ¦   ¦   ¦   CODE_OF_CONDUCT.md
+    ¦   ¦   ¦   composer.json
+    ¦   ¦   ¦   CONTRIBUTING.md
+    ¦   ¦   ¦   LICENSE
+    ¦   ¦   ¦   README.md
+    ¦   ¦   ¦   renovate.json
+    ¦   ¦   ¦   SECURITY.md
+    ¦   ¦   ¦   VERSION
+    ¦   ¦   ¦   
+    ¦   ¦   +---metadata
+    ¦   ¦   ¦   +---Api
+    ¦   ¦   ¦   ¦       Annotations.php
+    ¦   ¦   ¦   ¦       Auth.php
+    ¦   ¦   ¦   ¦       Backend.php
+    ¦   ¦   ¦   ¦       Billing.php
+    ¦   ¦   ¦   ¦       Client.php
+    ¦   ¦   ¦   ¦       ConfigChange.php
+    ¦   ¦   ¦   ¦       Consumer.php
+    ¦   ¦   ¦   ¦       Context.php
+    ¦   ¦   ¦   ¦       Control.php
+    ¦   ¦   ¦   ¦       Distribution.php
+    ¦   ¦   ¦   ¦       Documentation.php
+    ¦   ¦   ¦   ¦       Endpoint.php
+    ¦   ¦   ¦   ¦       ErrorReason.php
+    ¦   ¦   ¦   ¦       FieldBehavior.php
+    ¦   ¦   ¦   ¦       FieldInfo.php
+    ¦   ¦   ¦   ¦       Http.php
+    ¦   ¦   ¦   ¦       Httpbody.php
+    ¦   ¦   ¦   ¦       Label.php
+    ¦   ¦   ¦   ¦       LaunchStage.php
+    ¦   ¦   ¦   ¦       Log.php
+    ¦   ¦   ¦   ¦       Logging.php
+    ¦   ¦   ¦   ¦       Metric.php
+    ¦   ¦   ¦   ¦       MonitoredResource.php
+    ¦   ¦   ¦   ¦       Monitoring.php
+    ¦   ¦   ¦   ¦       Policy.php
+    ¦   ¦   ¦   ¦       Quota.php
+    ¦   ¦   ¦   ¦       Resource.php
+    ¦   ¦   ¦   ¦       Routing.php
+    ¦   ¦   ¦   ¦       Service.php
+    ¦   ¦   ¦   ¦       SourceInfo.php
+    ¦   ¦   ¦   ¦       SystemParameter.php
+    ¦   ¦   ¦   ¦       Usage.php
+    ¦   ¦   ¦   ¦       Visibility.php
+    ¦   ¦   ¦   ¦       
+    ¦   ¦   ¦   +---Cloud
+    ¦   ¦   ¦   ¦   ¦   ExtendedOperations.php
+    ¦   ¦   ¦   ¦   ¦   
+    ¦   ¦   ¦   ¦   +---Location
+    ¦   ¦   ¦   ¦           Locations.php
+    ¦   ¦   ¦   ¦           
+    ¦   ¦   ¦   +---Iam
+    ¦   ¦   ¦   ¦   +---V1
+    ¦   ¦   ¦   ¦       ¦   IamPolicy.php
+    ¦   ¦   ¦   ¦       ¦   Options.php
+    ¦   ¦   ¦   ¦       ¦   Policy.php
+    ¦   ¦   ¦   ¦       ¦   
+    ¦   ¦   ¦   ¦       +---Logging
+    ¦   ¦   ¦   ¦               AuditData.php
+    ¦   ¦   ¦   ¦               
+    ¦   ¦   ¦   +---Logging
+    ¦   ¦   ¦   ¦   +---Type
+    ¦   ¦   ¦   ¦           HttpRequest.php
+    ¦   ¦   ¦   ¦           LogSeverity.php
+    ¦   ¦   ¦   ¦           
+    ¦   ¦   ¦   +---Rpc
+    ¦   ¦   ¦   ¦   ¦   Code.php
+    ¦   ¦   ¦   ¦   ¦   ErrorDetails.php
+    ¦   ¦   ¦   ¦   ¦   Status.php
+    ¦   ¦   ¦   ¦   ¦   
+    ¦   ¦   ¦   ¦   +---Context
+    ¦   ¦   ¦   ¦           AttributeContext.php
+    ¦   ¦   ¦   ¦           AuditContext.php
+    ¦   ¦   ¦   ¦           
+    ¦   ¦   ¦   +---Type
+    ¦   ¦   ¦           CalendarPeriod.php
+    ¦   ¦   ¦           Color.php
+    ¦   ¦   ¦           Date.php
+    ¦   ¦   ¦           Datetime.php
+    ¦   ¦   ¦           Dayofweek.php
+    ¦   ¦   ¦           Decimal.php
+    ¦   ¦   ¦           Expr.php
+    ¦   ¦   ¦           Fraction.php
+    ¦   ¦   ¦           Interval.php
+    ¦   ¦   ¦           Latlng.php
+    ¦   ¦   ¦           LocalizedText.php
+    ¦   ¦   ¦           Money.php
+    ¦   ¦   ¦           Month.php
+    ¦   ¦   ¦           PhoneNumber.php
+    ¦   ¦   ¦           PostalAddress.php
+    ¦   ¦   ¦           Quaternion.php
+    ¦   ¦   ¦           Timeofday.php
+    ¦   ¦   ¦           
+    ¦   ¦   +---src
+    ¦   ¦       +---Api
+    ¦   ¦       ¦   ¦   Advice.php
+    ¦   ¦       ¦   ¦   Authentication.php
+    ¦   ¦       ¦   ¦   AuthenticationRule.php
+    ¦   ¦       ¦   ¦   AuthProvider.php
+    ¦   ¦       ¦   ¦   AuthRequirement.php
+    ¦   ¦       ¦   ¦   Backend.php
+    ¦   ¦       ¦   ¦   BackendRule.php
+    ¦   ¦       ¦   ¦   Billing.php
+    ¦   ¦       ¦   ¦   ChangeType.php
+    ¦   ¦       ¦   ¦   ClientLibraryDestination.php
+    ¦   ¦       ¦   ¦   ClientLibraryOrganization.php
+    ¦   ¦       ¦   ¦   ClientLibrarySettings.php
+    ¦   ¦       ¦   ¦   CommonLanguageSettings.php
+    ¦   ¦       ¦   ¦   ConfigChange.php
+    ¦   ¦       ¦   ¦   Context.php
+    ¦   ¦       ¦   ¦   ContextRule.php
+    ¦   ¦       ¦   ¦   Control.php
+    ¦   ¦       ¦   ¦   CppSettings.php
+    ¦   ¦       ¦   ¦   CustomHttpPattern.php
+    ¦   ¦       ¦   ¦   Distribution.php
+    ¦   ¦       ¦   ¦   Documentation.php
+    ¦   ¦       ¦   ¦   DocumentationRule.php
+    ¦   ¦       ¦   ¦   DotnetSettings.php
+    ¦   ¦       ¦   ¦   Endpoint.php
+    ¦   ¦       ¦   ¦   ErrorReason.php
+    ¦   ¦       ¦   ¦   FieldBehavior.php
+    ¦   ¦       ¦   ¦   FieldInfo.php
+    ¦   ¦       ¦   ¦   FieldPolicy.php
+    ¦   ¦       ¦   ¦   GoSettings.php
+    ¦   ¦       ¦   ¦   Http.php
+    ¦   ¦       ¦   ¦   HttpBody.php
+    ¦   ¦       ¦   ¦   HttpRule.php
+    ¦   ¦       ¦   ¦   JavaSettings.php
+    ¦   ¦       ¦   ¦   JwtLocation.php
+    ¦   ¦       ¦   ¦   LabelDescriptor.php
+    ¦   ¦       ¦   ¦   LaunchStage.php
+    ¦   ¦       ¦   ¦   LogDescriptor.php
+    ¦   ¦       ¦   ¦   Logging.php
+    ¦   ¦       ¦   ¦   MethodPolicy.php
+    ¦   ¦       ¦   ¦   MethodSettings.php
+    ¦   ¦       ¦   ¦   Metric.php
+    ¦   ¦       ¦   ¦   MetricDescriptor.php
+    ¦   ¦       ¦   ¦   MetricRule.php
+    ¦   ¦       ¦   ¦   MonitoredResource.php
+    ¦   ¦       ¦   ¦   MonitoredResourceDescriptor.php
+    ¦   ¦       ¦   ¦   MonitoredResourceMetadata.php
+    ¦   ¦       ¦   ¦   Monitoring.php
+    ¦   ¦       ¦   ¦   NodeSettings.php
+    ¦   ¦       ¦   ¦   OAuthRequirements.php
+    ¦   ¦       ¦   ¦   Page.php
+    ¦   ¦       ¦   ¦   PhpSettings.php
+    ¦   ¦       ¦   ¦   ProjectProperties.php
+    ¦   ¦       ¦   ¦   Property.php
+    ¦   ¦       ¦   ¦   Publishing.php
+    ¦   ¦       ¦   ¦   PythonSettings.php
+    ¦   ¦       ¦   ¦   Quota.php
+    ¦   ¦       ¦   ¦   QuotaLimit.php
+    ¦   ¦       ¦   ¦   ResourceDescriptor.php
+    ¦   ¦       ¦   ¦   ResourceReference.php
+    ¦   ¦       ¦   ¦   RoutingParameter.php
+    ¦   ¦       ¦   ¦   RoutingRule.php
+    ¦   ¦       ¦   ¦   RubySettings.php
+    ¦   ¦       ¦   ¦   Service.php
+    ¦   ¦       ¦   ¦   SourceInfo.php
+    ¦   ¦       ¦   ¦   SystemParameter.php
+    ¦   ¦       ¦   ¦   SystemParameterRule.php
+    ¦   ¦       ¦   ¦   SystemParameters.php
+    ¦   ¦       ¦   ¦   TypeReference.php
+    ¦   ¦       ¦   ¦   Usage.php
+    ¦   ¦       ¦   ¦   UsageRule.php
+    ¦   ¦       ¦   ¦   Visibility.php
+    ¦   ¦       ¦   ¦   VisibilityRule.php
+    ¦   ¦       ¦   ¦   
+    ¦   ¦       ¦   +---BackendRule
+    ¦   ¦       ¦   ¦       PathTranslation.php
+    ¦   ¦       ¦   ¦       
+    ¦   ¦       ¦   +---Billing
+    ¦   ¦       ¦   ¦       BillingDestination.php
+    ¦   ¦       ¦   ¦       
+    ¦   ¦       ¦   +---Distribution
+    ¦   ¦       ¦   ¦   ¦   BucketOptions.php
+    ¦   ¦       ¦   ¦   ¦   Exemplar.php
+    ¦   ¦       ¦   ¦   ¦   Range.php
+    ¦   ¦       ¦   ¦   ¦   
+    ¦   ¦       ¦   ¦   +---BucketOptions
+    ¦   ¦       ¦   ¦           Explicit.php
+    ¦   ¦       ¦   ¦           Exponential.php
+    ¦   ¦       ¦   ¦           Linear.php
+    ¦   ¦       ¦   ¦           
+    ¦   ¦       ¦   +---FieldInfo
+    ¦   ¦       ¦   ¦       Format.php
+    ¦   ¦       ¦   ¦       
+    ¦   ¦       ¦   +---LabelDescriptor
+    ¦   ¦       ¦   ¦       ValueType.php
+    ¦   ¦       ¦   ¦       
+    ¦   ¦       ¦   +---Logging
+    ¦   ¦       ¦   ¦       LoggingDestination.php
+    ¦   ¦       ¦   ¦       
+    ¦   ¦       ¦   +---MethodSettings
+    ¦   ¦       ¦   ¦       LongRunning.php
+    ¦   ¦       ¦   ¦       
+    ¦   ¦       ¦   +---MetricDescriptor
+    ¦   ¦       ¦   ¦       MetricDescriptorMetadata.php
+    ¦   ¦       ¦   ¦       MetricKind.php
+    ¦   ¦       ¦   ¦       ValueType.php
+    ¦   ¦       ¦   ¦       
+    ¦   ¦       ¦   +---Monitoring
+    ¦   ¦       ¦   ¦       MonitoringDestination.php
+    ¦   ¦       ¦   ¦       
+    ¦   ¦       ¦   +---Property
+    ¦   ¦       ¦   ¦       PropertyType.php
+    ¦   ¦       ¦   ¦       
+    ¦   ¦       ¦   +---ResourceDescriptor
+    ¦   ¦       ¦           History.php
+    ¦   ¦       ¦           Style.php
+    ¦   ¦       ¦           
+    ¦   ¦       +---Cloud
+    ¦   ¦       ¦   ¦   OperationResponseMapping.php
+    ¦   ¦       ¦   ¦   
+    ¦   ¦       ¦   +---Iam
+    ¦   ¦       ¦   ¦   +---V1
+    ¦   ¦       ¦   ¦       ¦   AuditConfig.php
+    ¦   ¦       ¦   ¦       ¦   AuditConfigDelta.php
+    ¦   ¦       ¦   ¦       ¦   AuditLogConfig.php
+    ¦   ¦       ¦   ¦       ¦   Binding.php
+    ¦   ¦       ¦   ¦       ¦   BindingDelta.php
+    ¦   ¦       ¦   ¦       ¦   GetIamPolicyRequest.php
+    ¦   ¦       ¦   ¦       ¦   GetPolicyOptions.php
+    ¦   ¦       ¦   ¦       ¦   Policy.php
+    ¦   ¦       ¦   ¦       ¦   PolicyDelta.php
+    ¦   ¦       ¦   ¦       ¦   SetIamPolicyRequest.php
+    ¦   ¦       ¦   ¦       ¦   TestIamPermissionsRequest.php
+    ¦   ¦       ¦   ¦       ¦   TestIamPermissionsResponse.php
+    ¦   ¦       ¦   ¦       ¦   
+    ¦   ¦       ¦   ¦       +---AuditConfigDelta
+    ¦   ¦       ¦   ¦       ¦       Action.php
+    ¦   ¦       ¦   ¦       ¦       
+    ¦   ¦       ¦   ¦       +---AuditLogConfig
+    ¦   ¦       ¦   ¦       ¦       LogType.php
+    ¦   ¦       ¦   ¦       ¦       
+    ¦   ¦       ¦   ¦       +---BindingDelta
+    ¦   ¦       ¦   ¦               Action.php
+    ¦   ¦       ¦   ¦               
+    ¦   ¦       ¦   +---Location
+    ¦   ¦       ¦   ¦       GetLocationRequest.php
+    ¦   ¦       ¦   ¦       ListLocationsRequest.php
+    ¦   ¦       ¦   ¦       ListLocationsResponse.php
+    ¦   ¦       ¦   ¦       Location.php
+    ¦   ¦       ¦   ¦       
+    ¦   ¦       ¦   +---Logging
+    ¦   ¦       ¦       +---Type
+    ¦   ¦       ¦               HttpRequest.php
+    ¦   ¦       ¦               LogSeverity.php
+    ¦   ¦       ¦               
+    ¦   ¦       +---Iam
+    ¦   ¦       ¦   +---V1
+    ¦   ¦       ¦       +---Logging
+    ¦   ¦       ¦               AuditData.php
+    ¦   ¦       ¦               
+    ¦   ¦       +---Rpc
+    ¦   ¦       ¦   ¦   BadRequest.php
+    ¦   ¦       ¦   ¦   Code.php
+    ¦   ¦       ¦   ¦   DebugInfo.php
+    ¦   ¦       ¦   ¦   ErrorInfo.php
+    ¦   ¦       ¦   ¦   Help.php
+    ¦   ¦       ¦   ¦   LocalizedMessage.php
+    ¦   ¦       ¦   ¦   PreconditionFailure.php
+    ¦   ¦       ¦   ¦   QuotaFailure.php
+    ¦   ¦       ¦   ¦   RequestInfo.php
+    ¦   ¦       ¦   ¦   ResourceInfo.php
+    ¦   ¦       ¦   ¦   RetryInfo.php
+    ¦   ¦       ¦   ¦   Status.php
+    ¦   ¦       ¦   ¦   
+    ¦   ¦       ¦   +---BadRequest
+    ¦   ¦       ¦   ¦       FieldViolation.php
+    ¦   ¦       ¦   ¦       
+    ¦   ¦       ¦   +---Context
+    ¦   ¦       ¦   ¦   ¦   AttributeContext.php
+    ¦   ¦       ¦   ¦   ¦   AuditContext.php
+    ¦   ¦       ¦   ¦   ¦   
+    ¦   ¦       ¦   ¦   +---AttributeContext
+    ¦   ¦       ¦   ¦           Api.php
+    ¦   ¦       ¦   ¦           Auth.php
+    ¦   ¦       ¦   ¦           Peer.php
+    ¦   ¦       ¦   ¦           Request.php
+    ¦   ¦       ¦   ¦           Resource.php
+    ¦   ¦       ¦   ¦           Response.php
+    ¦   ¦       ¦   ¦           
+    ¦   ¦       ¦   +---Help
+    ¦   ¦       ¦   ¦       Link.php
+    ¦   ¦       ¦   ¦       
+    ¦   ¦       ¦   +---PreconditionFailure
+    ¦   ¦       ¦   ¦       Violation.php
+    ¦   ¦       ¦   ¦       
+    ¦   ¦       ¦   +---QuotaFailure
+    ¦   ¦       ¦           Violation.php
+    ¦   ¦       ¦           
+    ¦   ¦       +---Type
+    ¦   ¦           ¦   CalendarPeriod.php
+    ¦   ¦           ¦   Color.php
+    ¦   ¦           ¦   Date.php
+    ¦   ¦           ¦   DateTime.php
+    ¦   ¦           ¦   DayOfWeek.php
+    ¦   ¦           ¦   Decimal.php
+    ¦   ¦           ¦   Expr.php
+    ¦   ¦           ¦   Fraction.php
+    ¦   ¦           ¦   Interval.php
+    ¦   ¦           ¦   LatLng.php
+    ¦   ¦           ¦   LocalizedText.php
+    ¦   ¦           ¦   Money.php
+    ¦   ¦           ¦   Month.php
+    ¦   ¦           ¦   PhoneNumber.php
+    ¦   ¦           ¦   PostalAddress.php
+    ¦   ¦           ¦   Quaternion.php
+    ¦   ¦           ¦   TimeOfDay.php
+    ¦   ¦           ¦   TimeZone.php
+    ¦   ¦           ¦   
+    ¦   ¦           +---PhoneNumber
+    ¦   ¦                   ShortCode.php
+    ¦   ¦                   
+    ¦   +---gax
+    ¦   ¦   ¦   .repo-metadata.json
+    ¦   ¦   ¦   CHANGELOG.md
+    ¦   ¦   ¦   CODE_OF_CONDUCT.md
+    ¦   ¦   ¦   composer.json
+    ¦   ¦   ¦   LICENSE
+    ¦   ¦   ¦   phpstan.neon.dist
+    ¦   ¦   ¦   phpunit.xml.dist
+    ¦   ¦   ¦   README.md
+    ¦   ¦   ¦   renovate.json
+    ¦   ¦   ¦   SECURITY.md
+    ¦   ¦   ¦   VERSION
+    ¦   ¦   ¦   
+    ¦   ¦   +---metadata
+    ¦   ¦   ¦   ¦   README.md
+    ¦   ¦   ¦   ¦   
+    ¦   ¦   ¦   +---ApiCore
+    ¦   ¦   ¦   ¦   +---Testing
+    ¦   ¦   ¦   ¦           Mocks.php
+    ¦   ¦   ¦   ¦           
+    ¦   ¦   ¦   +---Google
+    ¦   ¦   ¦       +---ApiCore
+    ¦   ¦   ¦           +---Tests
+    ¦   ¦   ¦               +---Unit
+    ¦   ¦   ¦                       Example.php
+    ¦   ¦   ¦                       
+    ¦   ¦   +---src
+    ¦   ¦       ¦   AgentHeader.php
+    ¦   ¦       ¦   ApiException.php
+    ¦   ¦       ¦   ApiKeyHeaderCredentials.php
+    ¦   ¦       ¦   ApiStatus.php
+    ¦   ¦       ¦   ArrayTrait.php
+    ¦   ¦       ¦   BidiStream.php
+    ¦   ¦       ¦   Call.php
+    ¦   ¦       ¦   ClientOptionsTrait.php
+    ¦   ¦       ¦   ClientStream.php
+    ¦   ¦       ¦   CredentialsWrapper.php
+    ¦   ¦       ¦   FixedSizeCollection.php
+    ¦   ¦       ¦   GapicClientTrait.php
+    ¦   ¦       ¦   GPBLabel.php
+    ¦   ¦       ¦   GPBType.php
+    ¦   ¦       ¦   GrpcSupportTrait.php
+    ¦   ¦       ¦   HeaderCredentialsInterface.php
+    ¦   ¦       ¦   InsecureCredentialsWrapper.php
+    ¦   ¦       ¦   InsecureRequestBuilder.php
+    ¦   ¦       ¦   OperationResponse.php
+    ¦   ¦       ¦   Page.php
+    ¦   ¦       ¦   PagedListResponse.php
+    ¦   ¦       ¦   PageStreamingDescriptor.php
+    ¦   ¦       ¦   PathTemplate.php
+    ¦   ¦       ¦   PollingTrait.php
+    ¦   ¦       ¦   RequestBuilder.php
+    ¦   ¦       ¦   RequestParamsHeaderDescriptor.php
+    ¦   ¦       ¦   ResourceHelperTrait.php
+    ¦   ¦       ¦   RetrySettings.php
+    ¦   ¦       ¦   Serializer.php
+    ¦   ¦       ¦   ServerStream.php
+    ¦   ¦       ¦   ServerStreamingCallInterface.php
+    ¦   ¦       ¦   ServiceAddressTrait.php
+    ¦   ¦       ¦   UriTrait.php
+    ¦   ¦       ¦   ValidationException.php
+    ¦   ¦       ¦   ValidationTrait.php
+    ¦   ¦       ¦   Version.php
+    ¦   ¦       ¦   
+    ¦   ¦       +---Middleware
+    ¦   ¦       ¦       CredentialsWrapperMiddleware.php
+    ¦   ¦       ¦       FixedHeaderMiddleware.php
+    ¦   ¦       ¦       MiddlewareInterface.php
+    ¦   ¦       ¦       OperationsMiddleware.php
+    ¦   ¦       ¦       OptionsFilterMiddleware.php
+    ¦   ¦       ¦       PagedMiddleware.php
+    ¦   ¦       ¦       RequestAutoPopulationMiddleware.php
+    ¦   ¦       ¦       ResponseMetadataMiddleware.php
+    ¦   ¦       ¦       RetryMiddleware.php
+    ¦   ¦       ¦       
+    ¦   ¦       +---Options
+    ¦   ¦       ¦   ¦   CallOptions.php
+    ¦   ¦       ¦   ¦   ClientOptions.php
+    ¦   ¦       ¦   ¦   OptionsTrait.php
+    ¦   ¦       ¦   ¦   TransportOptions.php
+    ¦   ¦       ¦   ¦   
+    ¦   ¦       ¦   +---TransportOptions
+    ¦   ¦       ¦           GrpcFallbackTransportOptions.php
+    ¦   ¦       ¦           GrpcTransportOptions.php
+    ¦   ¦       ¦           RestTransportOptions.php
+    ¦   ¦       ¦           
+    ¦   ¦       +---ResourceTemplate
+    ¦   ¦       ¦       AbsoluteResourceTemplate.php
+    ¦   ¦       ¦       Parser.php
+    ¦   ¦       ¦       RelativeResourceTemplate.php
+    ¦   ¦       ¦       ResourceTemplateInterface.php
+    ¦   ¦       ¦       Segment.php
+    ¦   ¦       ¦       
+    ¦   ¦       +---Testing
+    ¦   ¦       ¦       GeneratedTest.php
+    ¦   ¦       ¦       MessageAwareArrayComparator.php
+    ¦   ¦       ¦       MessageAwareExporter.php
+    ¦   ¦       ¦       MockBidiStreamingCall.php
+    ¦   ¦       ¦       MockClientStreamingCall.php
+    ¦   ¦       ¦       MockGrpcTransport.php
+    ¦   ¦       ¦       MockRequest.php
+    ¦   ¦       ¦       MockRequestBody.php
+    ¦   ¦       ¦       MockResponse.php
+    ¦   ¦       ¦       mocks.proto
+    ¦   ¦       ¦       MockServerStreamingCall.php
+    ¦   ¦       ¦       MockStatus.php
+    ¦   ¦       ¦       MockStubTrait.php
+    ¦   ¦       ¦       MockTransport.php
+    ¦   ¦       ¦       MockUnaryCall.php
+    ¦   ¦       ¦       ProtobufGPBEmptyComparator.php
+    ¦   ¦       ¦       ProtobufMessageComparator.php
+    ¦   ¦       ¦       ReceivedRequest.php
+    ¦   ¦       ¦       SerializationTrait.php
+    ¦   ¦       ¦       
+    ¦   ¦       +---Transport
+    ¦   ¦           ¦   GrpcFallbackTransport.php
+    ¦   ¦           ¦   GrpcTransport.php
+    ¦   ¦           ¦   HttpUnaryTransportTrait.php
+    ¦   ¦           ¦   RestTransport.php
+    ¦   ¦           ¦   TransportInterface.php
+    ¦   ¦           ¦   
+    ¦   ¦           +---Grpc
+    ¦   ¦           ¦       ForwardingCall.php
+    ¦   ¦           ¦       ForwardingServerStreamingCall.php
+    ¦   ¦           ¦       ForwardingUnaryCall.php
+    ¦   ¦           ¦       ServerStreamingCallWrapper.php
+    ¦   ¦           ¦       UnaryInterceptorInterface.php
+    ¦   ¦           ¦       
+    ¦   ¦           +---Rest
+    ¦   ¦                   JsonStreamDecoder.php
+    ¦   ¦                   RestServerStreamingCall.php
+    ¦   ¦                   
+    ¦   +---grpc-gcp
+    ¦   ¦   ¦   .gitmodules
+    ¦   ¦   ¦   .php_cs.dist
+    ¦   ¦   ¦   composer.json
+    ¦   ¦   ¦   LICENSE
+    ¦   ¦   ¦   README.md
+    ¦   ¦   ¦   
+    ¦   ¦   +---.github
+    ¦   ¦   ¦   ¦   release-please.yml
+    ¦   ¦   ¦   ¦   
+    ¦   ¦   ¦   +---workflows
+    ¦   ¦   ¦           tests.yml
+    ¦   ¦   ¦           
+    ¦   ¦   +---cloudprober
+    ¦   ¦   ¦   ¦   cloudprober.cfg
+    ¦   ¦   ¦   ¦   codegen.sh
+    ¦   ¦   ¦   ¦   composer.json
+    ¦   ¦   ¦   ¦   
+    ¦   ¦   ¦   +---bins
+    ¦   ¦   ¦   ¦   +---opt
+    ¦   ¦   ¦   ¦           grpc_php_plugin
+    ¦   ¦   ¦   ¦           
+    ¦   ¦   ¦   +---grpc_gpc_prober
+    ¦   ¦   ¦           firestore_probes.php
+    ¦   ¦   ¦           prober.php
+    ¦   ¦   ¦           spanner_probes.php
+    ¦   ¦   ¦           stackdriver_util.php
+    ¦   ¦   ¦           
+    ¦   ¦   +---doc
+    ¦   ¦   ¦       gRPC-client-user-guide.md
+    ¦   ¦   ¦       
+    ¦   ¦   +---src
+    ¦   ¦   ¦   ¦   ChannelRef.php
+    ¦   ¦   ¦   ¦   Config.php
+    ¦   ¦   ¦   ¦   CreatedByDeserializeCheck.php
+    ¦   ¦   ¦   ¦   GcpBaseCall.php
+    ¦   ¦   ¦   ¦   GCPBidiStreamingCall.php
+    ¦   ¦   ¦   ¦   GCPCallInvoker.php
+    ¦   ¦   ¦   ¦   GCPClientStreamCall.php
+    ¦   ¦   ¦   ¦   GcpExtensionChannel.php
+    ¦   ¦   ¦   ¦   GCPServerStreamCall.php
+    ¦   ¦   ¦   ¦   GCPUnaryCall.php
+    ¦   ¦   ¦   ¦   grpc_gcp.proto
+    ¦   ¦   ¦   ¦   
+    ¦   ¦   ¦   +---generated
+    ¦   ¦   ¦       +---GPBMetadata
+    ¦   ¦   ¦       ¦       GrpcGcp.php
+    ¦   ¦   ¦       ¦       
+    ¦   ¦   ¦       +---Grpc
+    ¦   ¦   ¦           +---Gcp
+    ¦   ¦   ¦                   AffinityConfig.php
+    ¦   ¦   ¦                   AffinityConfig_Command.php
+    ¦   ¦   ¦                   ApiConfig.php
+    ¦   ¦   ¦                   ChannelPoolConfig.php
+    ¦   ¦   ¦                   MethodConfig.php
+    ¦   ¦   ¦                   
+    ¦   ¦   +---third_party
+    ¦   ¦       +---googleapis
+    ¦   +---longrunning
+    ¦   ¦   ¦   .gitattributes
+    ¦   ¦   ¦   CODE_OF_CONDUCT.md
+    ¦   ¦   ¦   composer.json
+    ¦   ¦   ¦   CONTRIBUTING.md
+    ¦   ¦   ¦   LICENSE
+    ¦   ¦   ¦   README.md
+    ¦   ¦   ¦   SECURITY.md
+    ¦   ¦   ¦   VERSION
+    ¦   ¦   ¦   
+    ¦   ¦   +---metadata
+    ¦   ¦   ¦   ¦   README.md
+    ¦   ¦   ¦   ¦   
+    ¦   ¦   ¦   +---Longrunning
+    ¦   ¦   ¦           Operations.php
+    ¦   ¦   ¦           
+    ¦   ¦   +---src
+    ¦   ¦       +---ApiCore
+    ¦   ¦       ¦   +---LongRunning
+    ¦   ¦       ¦       ¦   OperationsClient.php
+    ¦   ¦       ¦       ¦   
+    ¦   ¦       ¦       +---Gapic
+    ¦   ¦       ¦               OperationsGapicClient.php
+    ¦   ¦       ¦               
+    ¦   ¦       +---LongRunning
+    ¦   ¦           ¦   CancelOperationRequest.php
+    ¦   ¦           ¦   DeleteOperationRequest.php
+    ¦   ¦           ¦   GetOperationRequest.php
+    ¦   ¦           ¦   ListOperationsRequest.php
+    ¦   ¦           ¦   ListOperationsResponse.php
+    ¦   ¦           ¦   Operation.php
+    ¦   ¦           ¦   OperationInfo.php
+    ¦   ¦           ¦   OperationsClient.php
+    ¦   ¦           ¦   OperationsGrpcClient.php
+    ¦   ¦           ¦   WaitOperationRequest.php
+    ¦   ¦           ¦   
+    ¦   ¦           +---Client
+    ¦   ¦           ¦       OperationsClient.php
+    ¦   ¦           ¦       
+    ¦   ¦           +---Gapic
+    ¦   ¦           ¦       OperationsGapicClient.php
+    ¦   ¦           ¦       
+    ¦   ¦           +---resources
+    ¦   ¦                   operations_client_config.json
+    ¦   ¦                   operations_descriptor_config.php
+    ¦   ¦                   operations_rest_client_config.php
+    ¦   ¦                   
+    ¦   +---protobuf
+    ¦       ¦   composer.json
+    ¦       ¦   LICENSE
+    ¦       ¦   README.md
+    ¦       ¦   
+    ¦       +---src
+    ¦           ¦   phpdoc.dist.xml
+    ¦           ¦   
+    ¦           +---Google
+    ¦           ¦   +---Protobuf
+    ¦           ¦       ¦   Any.php
+    ¦           ¦       ¦   Api.php
+    ¦           ¦       ¦   BoolValue.php
+    ¦           ¦       ¦   BytesValue.php
+    ¦           ¦       ¦   Descriptor.php
+    ¦           ¦       ¦   DescriptorPool.php
+    ¦           ¦       ¦   DoubleValue.php
+    ¦           ¦       ¦   Duration.php
+    ¦           ¦       ¦   Enum.php
+    ¦           ¦       ¦   EnumDescriptor.php
+    ¦           ¦       ¦   EnumValue.php
+    ¦           ¦       ¦   EnumValueDescriptor.php
+    ¦           ¦       ¦   Field.php
+    ¦           ¦       ¦   FieldDescriptor.php
+    ¦           ¦       ¦   FieldMask.php
+    ¦           ¦       ¦   Field_Cardinality.php
+    ¦           ¦       ¦   Field_Kind.php
+    ¦           ¦       ¦   FloatValue.php
+    ¦           ¦       ¦   GPBEmpty.php
+    ¦           ¦       ¦   Int32Value.php
+    ¦           ¦       ¦   Int64Value.php
+    ¦           ¦       ¦   ListValue.php
+    ¦           ¦       ¦   Method.php
+    ¦           ¦       ¦   Mixin.php
+    ¦           ¦       ¦   NullValue.php
+    ¦           ¦       ¦   OneofDescriptor.php
+    ¦           ¦       ¦   Option.php
+    ¦           ¦       ¦   SourceContext.php
+    ¦           ¦       ¦   StringValue.php
+    ¦           ¦       ¦   Struct.php
+    ¦           ¦       ¦   Syntax.php
+    ¦           ¦       ¦   Timestamp.php
+    ¦           ¦       ¦   Type.php
+    ¦           ¦       ¦   UInt32Value.php
+    ¦           ¦       ¦   UInt64Value.php
+    ¦           ¦       ¦   Value.php
+    ¦           ¦       ¦   
+    ¦           ¦       +---Field
+    ¦           ¦       ¦       Cardinality.php
+    ¦           ¦       ¦       Kind.php
+    ¦           ¦       ¦       
+    ¦           ¦       +---Internal
+    ¦           ¦           ¦   AnyBase.php
+    ¦           ¦           ¦   CodedInputStream.php
+    ¦           ¦           ¦   CodedOutputStream.php
+    ¦           ¦           ¦   Descriptor.php
+    ¦           ¦           ¦   DescriptorPool.php
+    ¦           ¦           ¦   DescriptorProto.php
+    ¦           ¦           ¦   DescriptorProto_ExtensionRange.php
+    ¦           ¦           ¦   DescriptorProto_ReservedRange.php
+    ¦           ¦           ¦   EnumBuilderContext.php
+    ¦           ¦           ¦   EnumDescriptor.php
+    ¦           ¦           ¦   EnumDescriptorProto.php
+    ¦           ¦           ¦   EnumDescriptorProto_EnumReservedRange.php
+    ¦           ¦           ¦   EnumOptions.php
+    ¦           ¦           ¦   EnumValueDescriptorProto.php
+    ¦           ¦           ¦   EnumValueOptions.php
+    ¦           ¦           ¦   ExtensionRangeOptions.php
+    ¦           ¦           ¦   FieldDescriptor.php
+    ¦           ¦           ¦   FieldDescriptorProto.php
+    ¦           ¦           ¦   FieldDescriptorProto_Label.php
+    ¦           ¦           ¦   FieldDescriptorProto_Type.php
+    ¦           ¦           ¦   FieldOptions.php
+    ¦           ¦           ¦   FieldOptions_CType.php
+    ¦           ¦           ¦   FieldOptions_JSType.php
+    ¦           ¦           ¦   FileDescriptor.php
+    ¦           ¦           ¦   FileDescriptorProto.php
+    ¦           ¦           ¦   FileDescriptorSet.php
+    ¦           ¦           ¦   FileOptions.php
+    ¦           ¦           ¦   FileOptions_OptimizeMode.php
+    ¦           ¦           ¦   GeneratedCodeInfo.php
+    ¦           ¦           ¦   GeneratedCodeInfo_Annotation.php
+    ¦           ¦           ¦   GetPublicDescriptorTrait.php
+    ¦           ¦           ¦   GPBDecodeException.php
+    ¦           ¦           ¦   GPBJsonWire.php
+    ¦           ¦           ¦   GPBLabel.php
+    ¦           ¦           ¦   GPBType.php
+    ¦           ¦           ¦   GPBUtil.php
+    ¦           ¦           ¦   GPBWire.php
+    ¦           ¦           ¦   GPBWireType.php
+    ¦           ¦           ¦   HasPublicDescriptorTrait.php
+    ¦           ¦           ¦   MapEntry.php
+    ¦           ¦           ¦   MapField.php
+    ¦           ¦           ¦   MapFieldIter.php
+    ¦           ¦           ¦   Message.php
+    ¦           ¦           ¦   MessageBuilderContext.php
+    ¦           ¦           ¦   MessageOptions.php
+    ¦           ¦           ¦   MethodDescriptorProto.php
+    ¦           ¦           ¦   MethodOptions.php
+    ¦           ¦           ¦   MethodOptions_IdempotencyLevel.php
+    ¦           ¦           ¦   OneofDescriptor.php
+    ¦           ¦           ¦   OneofDescriptorProto.php
+    ¦           ¦           ¦   OneofField.php
+    ¦           ¦           ¦   OneofOptions.php
+    ¦           ¦           ¦   RawInputStream.php
+    ¦           ¦           ¦   RepeatedField.php
+    ¦           ¦           ¦   RepeatedFieldIter.php
+    ¦           ¦           ¦   ServiceDescriptorProto.php
+    ¦           ¦           ¦   ServiceOptions.php
+    ¦           ¦           ¦   SourceCodeInfo.php
+    ¦           ¦           ¦   SourceCodeInfo_Location.php
+    ¦           ¦           ¦   TimestampBase.php
+    ¦           ¦           ¦   UninterpretedOption.php
+    ¦           ¦           ¦   UninterpretedOption_NamePart.php
+    ¦           ¦           ¦   
+    ¦           ¦           +---DescriptorProto
+    ¦           ¦           ¦       ExtensionRange.php
+    ¦           ¦           ¦       ReservedRange.php
+    ¦           ¦           ¦       
+    ¦           ¦           +---EnumDescriptorProto
+    ¦           ¦           ¦       EnumReservedRange.php
+    ¦           ¦           ¦       
+    ¦           ¦           +---FieldDescriptorProto
+    ¦           ¦           ¦       Label.php
+    ¦           ¦           ¦       Type.php
+    ¦           ¦           ¦       
+    ¦           ¦           +---FieldOptions
+    ¦           ¦           ¦       CType.php
+    ¦           ¦           ¦       JSType.php
+    ¦           ¦           ¦       
+    ¦           ¦           +---FileOptions
+    ¦           ¦           ¦       OptimizeMode.php
+    ¦           ¦           ¦       
+    ¦           ¦           +---GeneratedCodeInfo
+    ¦           ¦           ¦       Annotation.php
+    ¦           ¦           ¦       
+    ¦           ¦           +---MethodOptions
+    ¦           ¦           ¦       IdempotencyLevel.php
+    ¦           ¦           ¦       
+    ¦           ¦           +---SourceCodeInfo
+    ¦           ¦           ¦       Location.php
+    ¦           ¦           ¦       
+    ¦           ¦           +---UninterpretedOption
+    ¦           ¦                   NamePart.php
+    ¦           ¦                   
+    ¦           +---GPBMetadata
+    ¦               +---Google
+    ¦                   +---Protobuf
+    ¦                       ¦   Any.php
+    ¦                       ¦   Api.php
+    ¦                       ¦   Duration.php
+    ¦                       ¦   FieldMask.php
+    ¦                       ¦   GPBEmpty.php
+    ¦                       ¦   SourceContext.php
+    ¦                       ¦   Struct.php
+    ¦                       ¦   Timestamp.php
+    ¦                       ¦   Type.php
+    ¦                       ¦   Wrappers.php
+    ¦                       ¦   
+    ¦                       +---Internal
+    ¦                               Descriptor.php
+    ¦                               
+    +---grpc
+    ¦   +---grpc
+    ¦       ¦   composer.json
+    ¦       ¦   LICENSE
+    ¦       ¦   MAINTAINERS.md
+    ¦       ¦   README.md
+    ¦       ¦   
+    ¦       +---etc
+    ¦       ¦       roots.pem
+    ¦       ¦       
+    ¦       +---src
+    ¦           +---lib
+    ¦               ¦   AbstractCall.php
+    ¦               ¦   BaseStub.php
+    ¦               ¦   BidiStreamingCall.php
+    ¦               ¦   CallInvoker.php
+    ¦               ¦   ClientStreamingCall.php
+    ¦               ¦   DefaultCallInvoker.php
+    ¦               ¦   Interceptor.php
+    ¦               ¦   MethodDescriptor.php
+    ¦               ¦   RpcServer.php
+    ¦               ¦   ServerCallReader.php
+    ¦               ¦   ServerCallWriter.php
+    ¦               ¦   ServerContext.php
+    ¦               ¦   ServerStreamingCall.php
+    ¦               ¦   Status.php
+    ¦               ¦   UnaryCall.php
+    ¦               ¦   
+    ¦               +---Internal
+    ¦                       InterceptorChannel.php
+    ¦                       
+    +---guzzlehttp
+    ¦   +---guzzle
+    ¦   ¦   ¦   CHANGELOG.md
+    ¦   ¦   ¦   composer.json
+    ¦   ¦   ¦   LICENSE
+    ¦   ¦   ¦   README.md
+    ¦   ¦   ¦   UPGRADING.md
+    ¦   ¦   ¦   
+    ¦   ¦   +---src
+    ¦   ¦       ¦   BodySummarizer.php
+    ¦   ¦       ¦   BodySummarizerInterface.php
+    ¦   ¦       ¦   Client.php
+    ¦   ¦       ¦   ClientInterface.php
+    ¦   ¦       ¦   ClientTrait.php
+    ¦   ¦       ¦   functions.php
+    ¦   ¦       ¦   functions_include.php
+    ¦   ¦       ¦   HandlerStack.php
+    ¦   ¦       ¦   MessageFormatter.php
+    ¦   ¦       ¦   MessageFormatterInterface.php
+    ¦   ¦       ¦   Middleware.php
+    ¦   ¦       ¦   Pool.php
+    ¦   ¦       ¦   PrepareBodyMiddleware.php
+    ¦   ¦       ¦   RedirectMiddleware.php
+    ¦   ¦       ¦   RequestOptions.php
+    ¦   ¦       ¦   RetryMiddleware.php
+    ¦   ¦       ¦   TransferStats.php
+    ¦   ¦       ¦   Utils.php
+    ¦   ¦       ¦   
+    ¦   ¦       +---Cookie
+    ¦   ¦       ¦       CookieJar.php
+    ¦   ¦       ¦       CookieJarInterface.php
+    ¦   ¦       ¦       FileCookieJar.php
+    ¦   ¦       ¦       SessionCookieJar.php
+    ¦   ¦       ¦       SetCookie.php
+    ¦   ¦       ¦       
+    ¦   ¦       +---Exception
+    ¦   ¦       ¦       BadResponseException.php
+    ¦   ¦       ¦       ClientException.php
+    ¦   ¦       ¦       ConnectException.php
+    ¦   ¦       ¦       GuzzleException.php
+    ¦   ¦       ¦       InvalidArgumentException.php
+    ¦   ¦       ¦       RequestException.php
+    ¦   ¦       ¦       ServerException.php
+    ¦   ¦       ¦       TooManyRedirectsException.php
+    ¦   ¦       ¦       TransferException.php
+    ¦   ¦       ¦       
+    ¦   ¦       +---Handler
+    ¦   ¦               CurlFactory.php
+    ¦   ¦               CurlFactoryInterface.php
+    ¦   ¦               CurlHandler.php
+    ¦   ¦               CurlMultiHandler.php
+    ¦   ¦               EasyHandle.php
+    ¦   ¦               HeaderProcessor.php
+    ¦   ¦               MockHandler.php
+    ¦   ¦               Proxy.php
+    ¦   ¦               StreamHandler.php
+    ¦   ¦               
+    ¦   +---promises
+    ¦   ¦   ¦   CHANGELOG.md
+    ¦   ¦   ¦   composer.json
+    ¦   ¦   ¦   LICENSE
+    ¦   ¦   ¦   README.md
+    ¦   ¦   ¦   
+    ¦   ¦   +---src
+    ¦   ¦           AggregateException.php
+    ¦   ¦           CancellationException.php
+    ¦   ¦           Coroutine.php
+    ¦   ¦           Create.php
+    ¦   ¦           Each.php
+    ¦   ¦           EachPromise.php
+    ¦   ¦           FulfilledPromise.php
+    ¦   ¦           Is.php
+    ¦   ¦           Promise.php
+    ¦   ¦           PromiseInterface.php
+    ¦   ¦           PromisorInterface.php
+    ¦   ¦           RejectedPromise.php
+    ¦   ¦           RejectionException.php
+    ¦   ¦           TaskQueue.php
+    ¦   ¦           TaskQueueInterface.php
+    ¦   ¦           Utils.php
+    ¦   ¦           
+    ¦   +---psr7
+    ¦       ¦   CHANGELOG.md
+    ¦       ¦   composer.json
+    ¦       ¦   LICENSE
+    ¦       ¦   README.md
+    ¦       ¦   
+    ¦       +---src
+    ¦           ¦   AppendStream.php
+    ¦           ¦   BufferStream.php
+    ¦           ¦   CachingStream.php
+    ¦           ¦   DroppingStream.php
+    ¦           ¦   FnStream.php
+    ¦           ¦   Header.php
+    ¦           ¦   HttpFactory.php
+    ¦           ¦   InflateStream.php
+    ¦           ¦   LazyOpenStream.php
+    ¦           ¦   LimitStream.php
+    ¦           ¦   Message.php
+    ¦           ¦   MessageTrait.php
+    ¦           ¦   MimeType.php
+    ¦           ¦   MultipartStream.php
+    ¦           ¦   NoSeekStream.php
+    ¦           ¦   PumpStream.php
+    ¦           ¦   Query.php
+    ¦           ¦   Request.php
+    ¦           ¦   Response.php
+    ¦           ¦   Rfc7230.php
+    ¦           ¦   ServerRequest.php
+    ¦           ¦   Stream.php
+    ¦           ¦   StreamDecoratorTrait.php
+    ¦           ¦   StreamWrapper.php
+    ¦           ¦   UploadedFile.php
+    ¦           ¦   Uri.php
+    ¦           ¦   UriComparator.php
+    ¦           ¦   UriNormalizer.php
+    ¦           ¦   UriResolver.php
+    ¦           ¦   Utils.php
+    ¦           ¦   
+    ¦           +---Exception
+    ¦                   MalformedUriException.php
+    ¦                   
+    +---kreait
+    ¦   +---firebase-php
+    ¦   ¦   ¦   CHANGELOG.md
+    ¦   ¦   ¦   composer.json
+    ¦   ¦   ¦   LICENSE
+    ¦   ¦   ¦   README.md
+    ¦   ¦   ¦   SECURITY.md
+    ¦   ¦   ¦   UPGRADE-7.0.md
+    ¦   ¦   ¦   
+    ¦   ¦   +---src
+    ¦   ¦       +---Firebase
+    ¦   ¦           ¦   AppCheck.php
+    ¦   ¦           ¦   Auth.php
+    ¦   ¦           ¦   Database.php
+    ¦   ¦           ¦   DynamicLink.php
+    ¦   ¦           ¦   DynamicLinks.php
+    ¦   ¦           ¦   Factory.php
+    ¦   ¦           ¦   Firestore.php
+    ¦   ¦           ¦   Messaging.php
+    ¦   ¦           ¦   RemoteConfig.php
+    ¦   ¦           ¦   Request.php
+    ¦   ¦           ¦   Storage.php
+    ¦   ¦           ¦   Util.php
+    ¦   ¦           ¦   
+    ¦   ¦           +---AppCheck
+    ¦   ¦           ¦       ApiClient.php
+    ¦   ¦           ¦       AppCheckToken.php
+    ¦   ¦           ¦       AppCheckTokenGenerator.php
+    ¦   ¦           ¦       AppCheckTokenOptions.php
+    ¦   ¦           ¦       AppCheckTokenVerifier.php
+    ¦   ¦           ¦       DecodedAppCheckToken.php
+    ¦   ¦           ¦       VerifyAppCheckTokenResponse.php
+    ¦   ¦           ¦       
+    ¦   ¦           +---Auth
+    ¦   ¦           ¦   ¦   ActionCodeSettings.php
+    ¦   ¦           ¦   ¦   ApiClient.php
+    ¦   ¦           ¦   ¦   AuthResourceUrlBuilder.php
+    ¦   ¦           ¦   ¦   CreateActionLink.php
+    ¦   ¦           ¦   ¦   CreateSessionCookie.php
+    ¦   ¦           ¦   ¦   CustomTokenViaGoogleCredentials.php
+    ¦   ¦           ¦   ¦   DeleteUsersRequest.php
+    ¦   ¦           ¦   ¦   DeleteUsersResult.php
+    ¦   ¦           ¦   ¦   IsTenantAware.php
+    ¦   ¦           ¦   ¦   MfaInfo.php
+    ¦   ¦           ¦   ¦   ProjectAwareAuthResourceUrlBuilder.php
+    ¦   ¦           ¦   ¦   SendActionLink.php
+    ¦   ¦           ¦   ¦   SignIn.php
+    ¦   ¦           ¦   ¦   SignInAnonymously.php
+    ¦   ¦           ¦   ¦   SignInResult.php
+    ¦   ¦           ¦   ¦   SignInWithCustomToken.php
+    ¦   ¦           ¦   ¦   SignInWithEmailAndOobCode.php
+    ¦   ¦           ¦   ¦   SignInWithEmailAndPassword.php
+    ¦   ¦           ¦   ¦   SignInWithIdpCredentials.php
+    ¦   ¦           ¦   ¦   SignInWithRefreshToken.php
+    ¦   ¦           ¦   ¦   TenantAwareAuthResourceUrlBuilder.php
+    ¦   ¦           ¦   ¦   UserInfo.php
+    ¦   ¦           ¦   ¦   UserMetaData.php
+    ¦   ¦           ¦   ¦   UserQuery.php
+    ¦   ¦           ¦   ¦   UserRecord.php
+    ¦   ¦           ¦   ¦   
+    ¦   ¦           ¦   +---ActionCodeSettings
+    ¦   ¦           ¦   ¦       ValidatedActionCodeSettings.php
+    ¦   ¦           ¦   ¦       
+    ¦   ¦           ¦   +---CreateActionLink
+    ¦   ¦           ¦   ¦       FailedToCreateActionLink.php
+    ¦   ¦           ¦   ¦       GuzzleApiClientHandler.php
+    ¦   ¦           ¦   ¦       
+    ¦   ¦           ¦   +---CreateSessionCookie
+    ¦   ¦           ¦   ¦       FailedToCreateSessionCookie.php
+    ¦   ¦           ¦   ¦       GuzzleApiClientHandler.php
+    ¦   ¦           ¦   ¦       
+    ¦   ¦           ¦   +---SendActionLink
+    ¦   ¦           ¦   ¦       FailedToSendActionLink.php
+    ¦   ¦           ¦   ¦       GuzzleApiClientHandler.php
+    ¦   ¦           ¦   ¦       
+    ¦   ¦           ¦   +---SignIn
+    ¦   ¦           ¦           FailedToSignIn.php
+    ¦   ¦           ¦           GuzzleHandler.php
+    ¦   ¦           ¦           
+    ¦   ¦           +---Contract
+    ¦   ¦           ¦       AppCheck.php
+    ¦   ¦           ¦       Auth.php
+    ¦   ¦           ¦       Database.php
+    ¦   ¦           ¦       DynamicLinks.php
+    ¦   ¦           ¦       Firestore.php
+    ¦   ¦           ¦       Messaging.php
+    ¦   ¦           ¦       RemoteConfig.php
+    ¦   ¦           ¦       Storage.php
+    ¦   ¦           ¦       
+    ¦   ¦           +---Database
+    ¦   ¦           ¦   ¦   ApiClient.php
+    ¦   ¦           ¦   ¦   Query.php
+    ¦   ¦           ¦   ¦   Reference.php
+    ¦   ¦           ¦   ¦   RuleSet.php
+    ¦   ¦           ¦   ¦   Snapshot.php
+    ¦   ¦           ¦   ¦   Transaction.php
+    ¦   ¦           ¦   ¦   UrlBuilder.php
+    ¦   ¦           ¦   ¦   
+    ¦   ¦           ¦   +---Query
+    ¦   ¦           ¦   ¦   ¦   Filter.php
+    ¦   ¦           ¦   ¦   ¦   Modifier.php
+    ¦   ¦           ¦   ¦   ¦   ModifierTrait.php
+    ¦   ¦           ¦   ¦   ¦   Sorter.php
+    ¦   ¦           ¦   ¦   ¦   
+    ¦   ¦           ¦   ¦   +---Filter
+    ¦   ¦           ¦   ¦   ¦       EndAt.php
+    ¦   ¦           ¦   ¦   ¦       EndBefore.php
+    ¦   ¦           ¦   ¦   ¦       EqualTo.php
+    ¦   ¦           ¦   ¦   ¦       LimitToFirst.php
+    ¦   ¦           ¦   ¦   ¦       LimitToLast.php
+    ¦   ¦           ¦   ¦   ¦       Shallow.php
+    ¦   ¦           ¦   ¦   ¦       StartAfter.php
+    ¦   ¦           ¦   ¦   ¦       StartAt.php
+    ¦   ¦           ¦   ¦   ¦       
+    ¦   ¦           ¦   ¦   +---Sorter
+    ¦   ¦           ¦   ¦           OrderByChild.php
+    ¦   ¦           ¦   ¦           OrderByKey.php
+    ¦   ¦           ¦   ¦           OrderByValue.php
+    ¦   ¦           ¦   ¦           
+    ¦   ¦           ¦   +---Reference
+    ¦   ¦           ¦           Validator.php
+    ¦   ¦           ¦           
+    ¦   ¦           +---DynamicLink
+    ¦   ¦           ¦   ¦   AnalyticsInfo.php
+    ¦   ¦           ¦   ¦   AndroidInfo.php
+    ¦   ¦           ¦   ¦   ApiClient.php
+    ¦   ¦           ¦   ¦   CreateDynamicLink.php
+    ¦   ¦           ¦   ¦   DynamicLinkStatistics.php
+    ¦   ¦           ¦   ¦   EventStatistics.php
+    ¦   ¦           ¦   ¦   GetStatisticsForDynamicLink.php
+    ¦   ¦           ¦   ¦   IOSInfo.php
+    ¦   ¦           ¦   ¦   NavigationInfo.php
+    ¦   ¦           ¦   ¦   ShortenLongDynamicLink.php
+    ¦   ¦           ¦   ¦   SocialMetaTagInfo.php
+    ¦   ¦           ¦   ¦   
+    ¦   ¦           ¦   +---AnalyticsInfo
+    ¦   ¦           ¦   ¦       GooglePlayAnalytics.php
+    ¦   ¦           ¦   ¦       ITunesConnectAnalytics.php
+    ¦   ¦           ¦   ¦       
+    ¦   ¦           ¦   +---CreateDynamicLink
+    ¦   ¦           ¦   ¦       FailedToCreateDynamicLink.php
+    ¦   ¦           ¦   ¦       
+    ¦   ¦           ¦   +---GetStatisticsForDynamicLink
+    ¦   ¦           ¦   ¦       FailedToGetStatisticsForDynamicLink.php
+    ¦   ¦           ¦   ¦       
+    ¦   ¦           ¦   +---ShortenLongDynamicLink
+    ¦   ¦           ¦           FailedToShortenLongDynamicLink.php
+    ¦   ¦           ¦           
+    ¦   ¦           +---Exception
+    ¦   ¦           ¦   ¦   AppCheckApiExceptionConverter.php
+    ¦   ¦           ¦   ¦   AppCheckException.php
+    ¦   ¦           ¦   ¦   AuthApiExceptionConverter.php
+    ¦   ¦           ¦   ¦   AuthException.php
+    ¦   ¦           ¦   ¦   DatabaseApiExceptionConverter.php
+    ¦   ¦           ¦   ¦   DatabaseException.php
+    ¦   ¦           ¦   ¦   FirebaseException.php
+    ¦   ¦           ¦   ¦   HasErrors.php
+    ¦   ¦           ¦   ¦   InvalidArgumentException.php
+    ¦   ¦           ¦   ¦   LogicException.php
+    ¦   ¦           ¦   ¦   MessagingApiExceptionConverter.php
+    ¦   ¦           ¦   ¦   MessagingException.php
+    ¦   ¦           ¦   ¦   OutOfRangeException.php
+    ¦   ¦           ¦   ¦   RemoteConfigApiExceptionConverter.php
+    ¦   ¦           ¦   ¦   RemoteConfigException.php
+    ¦   ¦           ¦   ¦   RuntimeException.php
+    ¦   ¦           ¦   ¦   
+    ¦   ¦           ¦   +---AppCheck
+    ¦   ¦           ¦   ¦       ApiConnectionFailed.php
+    ¦   ¦           ¦   ¦       AppCheckError.php
+    ¦   ¦           ¦   ¦       FailedToVerifyAppCheckToken.php
+    ¦   ¦           ¦   ¦       InvalidAppCheckToken.php
+    ¦   ¦           ¦   ¦       InvalidAppCheckTokenOptions.php
+    ¦   ¦           ¦   ¦       PermissionDenied.php
+    ¦   ¦           ¦   ¦       
+    ¦   ¦           ¦   +---Auth
+    ¦   ¦           ¦   ¦       ApiConnectionFailed.php
+    ¦   ¦           ¦   ¦       AuthError.php
+    ¦   ¦           ¦   ¦       CredentialsMismatch.php
+    ¦   ¦           ¦   ¦       EmailExists.php
+    ¦   ¦           ¦   ¦       EmailNotFound.php
+    ¦   ¦           ¦   ¦       ExpiredOobCode.php
+    ¦   ¦           ¦   ¦       FailedToVerifySessionCookie.php
+    ¦   ¦           ¦   ¦       FailedToVerifyToken.php
+    ¦   ¦           ¦   ¦       InvalidCustomToken.php
+    ¦   ¦           ¦   ¦       InvalidOobCode.php
+    ¦   ¦           ¦   ¦       InvalidPassword.php
+    ¦   ¦           ¦   ¦       MissingPassword.php
+    ¦   ¦           ¦   ¦       OperationNotAllowed.php
+    ¦   ¦           ¦   ¦       PhoneNumberExists.php
+    ¦   ¦           ¦   ¦       ProviderLinkFailed.php
+    ¦   ¦           ¦   ¦       RevokedIdToken.php
+    ¦   ¦           ¦   ¦       RevokedSessionCookie.php
+    ¦   ¦           ¦   ¦       UserDisabled.php
+    ¦   ¦           ¦   ¦       UserNotFound.php
+    ¦   ¦           ¦   ¦       WeakPassword.php
+    ¦   ¦           ¦   ¦       
+    ¦   ¦           ¦   +---Database
+    ¦   ¦           ¦   ¦       ApiConnectionFailed.php
+    ¦   ¦           ¦   ¦       DatabaseError.php
+    ¦   ¦           ¦   ¦       DatabaseNotFound.php
+    ¦   ¦           ¦   ¦       PermissionDenied.php
+    ¦   ¦           ¦   ¦       PreconditionFailed.php
+    ¦   ¦           ¦   ¦       ReferenceHasNotBeenSnapshotted.php
+    ¦   ¦           ¦   ¦       TransactionFailed.php
+    ¦   ¦           ¦   ¦       UnsupportedQuery.php
+    ¦   ¦           ¦   ¦       
+    ¦   ¦           ¦   +---Messaging
+    ¦   ¦           ¦   ¦       ApiConnectionFailed.php
+    ¦   ¦           ¦   ¦       AuthenticationError.php
+    ¦   ¦           ¦   ¦       InvalidArgument.php
+    ¦   ¦           ¦   ¦       InvalidMessage.php
+    ¦   ¦           ¦   ¦       MessagingError.php
+    ¦   ¦           ¦   ¦       NotFound.php
+    ¦   ¦           ¦   ¦       QuotaExceeded.php
+    ¦   ¦           ¦   ¦       ServerError.php
+    ¦   ¦           ¦   ¦       ServerUnavailable.php
+    ¦   ¦           ¦   ¦       
+    ¦   ¦           ¦   +---RemoteConfig
+    ¦   ¦           ¦           ApiConnectionFailed.php
+    ¦   ¦           ¦           OperationAborted.php
+    ¦   ¦           ¦           PermissionDenied.php
+    ¦   ¦           ¦           RemoteConfigError.php
+    ¦   ¦           ¦           ValidationFailed.php
+    ¦   ¦           ¦           VersionMismatch.php
+    ¦   ¦           ¦           VersionNotFound.php
+    ¦   ¦           ¦           
+    ¦   ¦           +---Http
+    ¦   ¦           ¦       ErrorResponseParser.php
+    ¦   ¦           ¦       HttpClientOptions.php
+    ¦   ¦           ¦       Middleware.php
+    ¦   ¦           ¦       
+    ¦   ¦           +---Messaging
+    ¦   ¦           ¦   ¦   AndroidConfig.php
+    ¦   ¦           ¦   ¦   ApiClient.php
+    ¦   ¦           ¦   ¦   ApnsConfig.php
+    ¦   ¦           ¦   ¦   AppInstance.php
+    ¦   ¦           ¦   ¦   AppInstanceApiClient.php
+    ¦   ¦           ¦   ¦   CloudMessage.php
+    ¦   ¦           ¦   ¦   Condition.php
+    ¦   ¦           ¦   ¦   FcmOptions.php
+    ¦   ¦           ¦   ¦   Message.php
+    ¦   ¦           ¦   ¦   MessageData.php
+    ¦   ¦           ¦   ¦   Messages.php
+    ¦   ¦           ¦   ¦   MessageTarget.php
+    ¦   ¦           ¦   ¦   MulticastSendReport.php
+    ¦   ¦           ¦   ¦   Notification.php
+    ¦   ¦           ¦   ¦   RawMessageFromArray.php
+    ¦   ¦           ¦   ¦   RegistrationToken.php
+    ¦   ¦           ¦   ¦   RegistrationTokens.php
+    ¦   ¦           ¦   ¦   RequestFactory.php
+    ¦   ¦           ¦   ¦   SendReport.php
+    ¦   ¦           ¦   ¦   Topic.php
+    ¦   ¦           ¦   ¦   TopicSubscription.php
+    ¦   ¦           ¦   ¦   TopicSubscriptions.php
+    ¦   ¦           ¦   ¦   WebPushConfig.php
+    ¦   ¦           ¦   ¦   
+    ¦   ¦           ¦   +---Processor
+    ¦   ¦           ¦           SetApnsContentAvailableIfNeeded.php
+    ¦   ¦           ¦           SetApnsPushTypeIfNeeded.php
+    ¦   ¦           ¦           
+    ¦   ¦           +---RemoteConfig
+    ¦   ¦           ¦       ApiClient.php
+    ¦   ¦           ¦       Condition.php
+    ¦   ¦           ¦       ConditionalValue.php
+    ¦   ¦           ¦       DefaultValue.php
+    ¦   ¦           ¦       ExplicitValue.php
+    ¦   ¦           ¦       FindVersions.php
+    ¦   ¦           ¦       Parameter.php
+    ¦   ¦           ¦       ParameterGroup.php
+    ¦   ¦           ¦       ParameterValue.php
+    ¦   ¦           ¦       ParameterValueType.php
+    ¦   ¦           ¦       PersonalizationValue.php
+    ¦   ¦           ¦       RolloutValue.php
+    ¦   ¦           ¦       TagColor.php
+    ¦   ¦           ¦       Template.php
+    ¦   ¦           ¦       UpdateOrigin.php
+    ¦   ¦           ¦       UpdateType.php
+    ¦   ¦           ¦       User.php
+    ¦   ¦           ¦       Version.php
+    ¦   ¦           ¦       VersionNumber.php
+    ¦   ¦           ¦       
+    ¦   ¦           +---Request
+    ¦   ¦           ¦       CreateUser.php
+    ¦   ¦           ¦       EditUserTrait.php
+    ¦   ¦           ¦       UpdateUser.php
+    ¦   ¦           ¦       
+    ¦   ¦           +---Util
+    ¦   ¦           ¦       DT.php
+    ¦   ¦           ¦       
+    ¦   ¦           +---Value
+    ¦   ¦                   ClearTextPassword.php
+    ¦   ¦                   Email.php
+    ¦   ¦                   Uid.php
+    ¦   ¦                   Url.php
+    ¦   ¦                   
+    ¦   +---firebase-tokens
+    ¦       ¦   CHANGELOG.md
+    ¦       ¦   composer.json
+    ¦       ¦   LICENSE
+    ¦       ¦   README.md
+    ¦       ¦   SECURITY.md
+    ¦       ¦   
+    ¦       +---src
+    ¦           +---JWT
+    ¦               ¦   CustomTokenGenerator.php
+    ¦               ¦   GooglePublicKeys.php
+    ¦               ¦   IdTokenVerifier.php
+    ¦               ¦   InsecureToken.php
+    ¦               ¦   SecureToken.php
+    ¦               ¦   SessionCookieVerifier.php
+    ¦               ¦   Util.php
+    ¦               ¦   
+    ¦               +---Action
+    ¦               ¦   ¦   CreateCustomToken.php
+    ¦               ¦   ¦   FetchGooglePublicKeys.php
+    ¦               ¦   ¦   VerifyIdToken.php
+    ¦               ¦   ¦   VerifySessionCookie.php
+    ¦               ¦   ¦   
+    ¦               ¦   +---CreateCustomToken
+    ¦               ¦   ¦       Handler.php
+    ¦               ¦   ¦       WithLcobucciJWT.php
+    ¦               ¦   ¦       
+    ¦               ¦   +---FetchGooglePublicKeys
+    ¦               ¦   ¦       Handler.php
+    ¦               ¦   ¦       WithGuzzle.php
+    ¦               ¦   ¦       WithPsr6Cache.php
+    ¦               ¦   ¦       
+    ¦               ¦   +---VerifyIdToken
+    ¦               ¦   ¦       Handler.php
+    ¦               ¦   ¦       WithLcobucciJWT.php
+    ¦               ¦   ¦       
+    ¦               ¦   +---VerifySessionCookie
+    ¦               ¦           Handler.php
+    ¦               ¦           WithLcobucciJWT.php
+    ¦               ¦           
+    ¦               +---Contract
+    ¦               ¦       Expirable.php
+    ¦               ¦       ExpirableTrait.php
+    ¦               ¦       Keys.php
+    ¦               ¦       KeysTrait.php
+    ¦               ¦       Token.php
+    ¦               ¦       
+    ¦               +---Error
+    ¦               ¦       CustomTokenCreationFailed.php
+    ¦               ¦       FetchingGooglePublicKeysFailed.php
+    ¦               ¦       IdTokenVerificationFailed.php
+    ¦               ¦       SessionCookieVerificationFailed.php
+    ¦               ¦       
+    ¦               +---Keys
+    ¦               ¦       ExpiringKeys.php
+    ¦               ¦       StaticKeys.php
+    ¦               ¦       
+    ¦               +---Signer
+    ¦               ¦       None.php
+    ¦               ¦       
+    ¦               +---Token
+    ¦               ¦       InsecureParser.php
+    ¦               ¦       Parser.php
+    ¦               ¦       
+    ¦               +---Value
+    ¦                       Duration.php
+    ¦                       
+    +---lcobucci
+    ¦   +---jwt
+    ¦       ¦   .readthedocs.yaml
+    ¦       ¦   composer.json
+    ¦       ¦   LICENSE
+    ¦       ¦   renovate.json
+    ¦       ¦   
+    ¦       +---src
+    ¦           ¦   Builder.php
+    ¦           ¦   ClaimsFormatter.php
+    ¦           ¦   Configuration.php
+    ¦           ¦   Decoder.php
+    ¦           ¦   Encoder.php
+    ¦           ¦   Exception.php
+    ¦           ¦   JwtFacade.php
+    ¦           ¦   Parser.php
+    ¦           ¦   Signer.php
+    ¦           ¦   SodiumBase64Polyfill.php
+    ¦           ¦   Token.php
+    ¦           ¦   UnencryptedToken.php
+    ¦           ¦   Validator.php
+    ¦           ¦   
+    ¦           +---Encoding
+    ¦           ¦       CannotDecodeContent.php
+    ¦           ¦       CannotEncodeContent.php
+    ¦           ¦       ChainedFormatter.php
+    ¦           ¦       JoseEncoder.php
+    ¦           ¦       MicrosecondBasedDateConversion.php
+    ¦           ¦       UnifyAudience.php
+    ¦           ¦       UnixTimestampDates.php
+    ¦           ¦       
+    ¦           +---Signer
+    ¦           ¦   ¦   Blake2b.php
+    ¦           ¦   ¦   CannotSignPayload.php
+    ¦           ¦   ¦   Ecdsa.php
+    ¦           ¦   ¦   Eddsa.php
+    ¦           ¦   ¦   Hmac.php
+    ¦           ¦   ¦   InvalidKeyProvided.php
+    ¦           ¦   ¦   Key.php
+    ¦           ¦   ¦   OpenSSL.php
+    ¦           ¦   ¦   Rsa.php
+    ¦           ¦   ¦   
+    ¦           ¦   +---Ecdsa
+    ¦           ¦   ¦       ConversionFailed.php
+    ¦           ¦   ¦       MultibyteStringConverter.php
+    ¦           ¦   ¦       Sha256.php
+    ¦           ¦   ¦       Sha384.php
+    ¦           ¦   ¦       Sha512.php
+    ¦           ¦   ¦       SignatureConverter.php
+    ¦           ¦   ¦       
+    ¦           ¦   +---Hmac
+    ¦           ¦   ¦       Sha256.php
+    ¦           ¦   ¦       Sha384.php
+    ¦           ¦   ¦       Sha512.php
+    ¦           ¦   ¦       
+    ¦           ¦   +---Key
+    ¦           ¦   ¦       FileCouldNotBeRead.php
+    ¦           ¦   ¦       InMemory.php
+    ¦           ¦   ¦       
+    ¦           ¦   +---Rsa
+    ¦           ¦           Sha256.php
+    ¦           ¦           Sha384.php
+    ¦           ¦           Sha512.php
+    ¦           ¦           
+    ¦           +---Token
+    ¦           ¦       Builder.php
+    ¦           ¦       DataSet.php
+    ¦           ¦       InvalidTokenStructure.php
+    ¦           ¦       Parser.php
+    ¦           ¦       Plain.php
+    ¦           ¦       RegisteredClaimGiven.php
+    ¦           ¦       RegisteredClaims.php
+    ¦           ¦       Signature.php
+    ¦           ¦       UnsupportedHeaderFound.php
+    ¦           ¦       
+    ¦           +---Validation
+    ¦               ¦   Constraint.php
+    ¦               ¦   ConstraintViolation.php
+    ¦               ¦   NoConstraintsGiven.php
+    ¦               ¦   RequiredConstraintsViolated.php
+    ¦               ¦   SignedWith.php
+    ¦               ¦   ValidAt.php
+    ¦               ¦   Validator.php
+    ¦               ¦   
+    ¦               +---Constraint
+    ¦                       CannotValidateARegisteredClaim.php
+    ¦                       HasClaim.php
+    ¦                       HasClaimWithValue.php
+    ¦                       IdentifiedBy.php
+    ¦                       IssuedBy.php
+    ¦                       LeewayCannotBeNegative.php
+    ¦                       LooseValidAt.php
+    ¦                       PermittedFor.php
+    ¦                       RelatedTo.php
+    ¦                       SignedWith.php
+    ¦                       SignedWithOneInSet.php
+    ¦                       SignedWithUntilDate.php
+    ¦                       StrictValidAt.php
+    ¦                       
+    +---monolog
+    ¦   +---monolog
+    ¦       ¦   CHANGELOG.md
+    ¦       ¦   composer.json
+    ¦       ¦   LICENSE
+    ¦       ¦   README.md
+    ¦       ¦   
+    ¦       +---src
+    ¦           +---Monolog
+    ¦               ¦   DateTimeImmutable.php
+    ¦               ¦   ErrorHandler.php
+    ¦               ¦   Level.php
+    ¦               ¦   Logger.php
+    ¦               ¦   LogRecord.php
+    ¦               ¦   Registry.php
+    ¦               ¦   ResettableInterface.php
+    ¦               ¦   SignalHandler.php
+    ¦               ¦   Utils.php
+    ¦               ¦   
+    ¦               +---Attribute
+    ¦               ¦       AsMonologProcessor.php
+    ¦               ¦       WithMonologChannel.php
+    ¦               ¦       
+    ¦               +---Formatter
+    ¦               ¦       ChromePHPFormatter.php
+    ¦               ¦       ElasticaFormatter.php
+    ¦               ¦       ElasticsearchFormatter.php
+    ¦               ¦       FlowdockFormatter.php
+    ¦               ¦       FluentdFormatter.php
+    ¦               ¦       FormatterInterface.php
+    ¦               ¦       GelfMessageFormatter.php
+    ¦               ¦       GoogleCloudLoggingFormatter.php
+    ¦               ¦       HtmlFormatter.php
+    ¦               ¦       JsonFormatter.php
+    ¦               ¦       LineFormatter.php
+    ¦               ¦       LogglyFormatter.php
+    ¦               ¦       LogmaticFormatter.php
+    ¦               ¦       LogstashFormatter.php
+    ¦               ¦       MongoDBFormatter.php
+    ¦               ¦       NormalizerFormatter.php
+    ¦               ¦       ScalarFormatter.php
+    ¦               ¦       SyslogFormatter.php
+    ¦               ¦       WildfireFormatter.php
+    ¦               ¦       
+    ¦               +---Handler
+    ¦               ¦   ¦   AbstractHandler.php
+    ¦               ¦   ¦   AbstractProcessingHandler.php
+    ¦               ¦   ¦   AbstractSyslogHandler.php
+    ¦               ¦   ¦   AmqpHandler.php
+    ¦               ¦   ¦   BrowserConsoleHandler.php
+    ¦               ¦   ¦   BufferHandler.php
+    ¦               ¦   ¦   ChromePHPHandler.php
+    ¦               ¦   ¦   CouchDBHandler.php
+    ¦               ¦   ¦   CubeHandler.php
+    ¦               ¦   ¦   DeduplicationHandler.php
+    ¦               ¦   ¦   DoctrineCouchDBHandler.php
+    ¦               ¦   ¦   DynamoDbHandler.php
+    ¦               ¦   ¦   ElasticaHandler.php
+    ¦               ¦   ¦   ElasticsearchHandler.php
+    ¦               ¦   ¦   ErrorLogHandler.php
+    ¦               ¦   ¦   FallbackGroupHandler.php
+    ¦               ¦   ¦   FilterHandler.php
+    ¦               ¦   ¦   FingersCrossedHandler.php
+    ¦               ¦   ¦   FirePHPHandler.php
+    ¦               ¦   ¦   FleepHookHandler.php
+    ¦               ¦   ¦   FlowdockHandler.php
+    ¦               ¦   ¦   FormattableHandlerInterface.php
+    ¦               ¦   ¦   FormattableHandlerTrait.php
+    ¦               ¦   ¦   GelfHandler.php
+    ¦               ¦   ¦   GroupHandler.php
+    ¦               ¦   ¦   Handler.php
+    ¦               ¦   ¦   HandlerInterface.php
+    ¦               ¦   ¦   HandlerWrapper.php
+    ¦               ¦   ¦   IFTTTHandler.php
+    ¦               ¦   ¦   InsightOpsHandler.php
+    ¦               ¦   ¦   LogEntriesHandler.php
+    ¦               ¦   ¦   LogglyHandler.php
+    ¦               ¦   ¦   LogmaticHandler.php
+    ¦               ¦   ¦   MailHandler.php
+    ¦               ¦   ¦   MandrillHandler.php
+    ¦               ¦   ¦   MissingExtensionException.php
+    ¦               ¦   ¦   MongoDBHandler.php
+    ¦               ¦   ¦   NativeMailerHandler.php
+    ¦               ¦   ¦   NewRelicHandler.php
+    ¦               ¦   ¦   NoopHandler.php
+    ¦               ¦   ¦   NullHandler.php
+    ¦               ¦   ¦   OverflowHandler.php
+    ¦               ¦   ¦   PHPConsoleHandler.php
+    ¦               ¦   ¦   ProcessableHandlerInterface.php
+    ¦               ¦   ¦   ProcessableHandlerTrait.php
+    ¦               ¦   ¦   ProcessHandler.php
+    ¦               ¦   ¦   PsrHandler.php
+    ¦               ¦   ¦   PushoverHandler.php
+    ¦               ¦   ¦   RedisHandler.php
+    ¦               ¦   ¦   RedisPubSubHandler.php
+    ¦               ¦   ¦   RollbarHandler.php
+    ¦               ¦   ¦   RotatingFileHandler.php
+    ¦               ¦   ¦   SamplingHandler.php
+    ¦               ¦   ¦   SendGridHandler.php
+    ¦               ¦   ¦   SlackHandler.php
+    ¦               ¦   ¦   SlackWebhookHandler.php
+    ¦               ¦   ¦   SocketHandler.php
+    ¦               ¦   ¦   SqsHandler.php
+    ¦               ¦   ¦   StreamHandler.php
+    ¦               ¦   ¦   SymfonyMailerHandler.php
+    ¦               ¦   ¦   SyslogHandler.php
+    ¦               ¦   ¦   SyslogUdpHandler.php
+    ¦               ¦   ¦   TelegramBotHandler.php
+    ¦               ¦   ¦   TestHandler.php
+    ¦               ¦   ¦   WebRequestRecognizerTrait.php
+    ¦               ¦   ¦   WhatFailureGroupHandler.php
+    ¦               ¦   ¦   ZendMonitorHandler.php
+    ¦               ¦   ¦   
+    ¦               ¦   +---Curl
+    ¦               ¦   ¦       Util.php
+    ¦               ¦   ¦       
+    ¦               ¦   +---FingersCrossed
+    ¦               ¦   ¦       ActivationStrategyInterface.php
+    ¦               ¦   ¦       ChannelLevelActivationStrategy.php
+    ¦               ¦   ¦       ErrorLevelActivationStrategy.php
+    ¦               ¦   ¦       
+    ¦               ¦   +---Slack
+    ¦               ¦   ¦       SlackRecord.php
+    ¦               ¦   ¦       
+    ¦               ¦   +---SyslogUdp
+    ¦               ¦           UdpSocket.php
+    ¦               ¦           
+    ¦               +---Processor
+    ¦               ¦       ClosureContextProcessor.php
+    ¦               ¦       GitProcessor.php
+    ¦               ¦       HostnameProcessor.php
+    ¦               ¦       IntrospectionProcessor.php
+    ¦               ¦       LoadAverageProcessor.php
+    ¦               ¦       MemoryPeakUsageProcessor.php
+    ¦               ¦       MemoryProcessor.php
+    ¦               ¦       MemoryUsageProcessor.php
+    ¦               ¦       MercurialProcessor.php
+    ¦               ¦       ProcessIdProcessor.php
+    ¦               ¦       ProcessorInterface.php
+    ¦               ¦       PsrLogMessageProcessor.php
+    ¦               ¦       TagProcessor.php
+    ¦               ¦       UidProcessor.php
+    ¦               ¦       WebProcessor.php
+    ¦               ¦       
+    ¦               +---Test
+    ¦                       TestCase.php
+    ¦                       
+    +---mtdowling
+    ¦   +---jmespath.php
+    ¦       ¦   CHANGELOG.md
+    ¦       ¦   composer.json
+    ¦       ¦   LICENSE
+    ¦       ¦   README.rst
+    ¦       ¦   
+    ¦       +---bin
+    ¦       ¦       jp.php
+    ¦       ¦       perf.php
+    ¦       ¦       
+    ¦       +---src
+    ¦               AstRuntime.php
+    ¦               CompilerRuntime.php
+    ¦               DebugRuntime.php
+    ¦               Env.php
+    ¦               FnDispatcher.php
+    ¦               JmesPath.php
+    ¦               Lexer.php
+    ¦               Parser.php
+    ¦               SyntaxErrorException.php
+    ¦               TreeCompiler.php
+    ¦               TreeInterpreter.php
+    ¦               Utils.php
+    ¦               
+    +---phpmailer
+    ¦   +---phpmailer
+    ¦       ¦   .editorconfig
+    ¦       ¦   COMMITMENT
+    ¦       ¦   composer.json
+    ¦       ¦   get_oauth_token.php
+    ¦       ¦   LICENSE
+    ¦       ¦   README.md
+    ¦       ¦   SECURITY.md
+    ¦       ¦   VERSION
+    ¦       ¦   
+    ¦       +---language
+    ¦       ¦       phpmailer.lang-af.php
+    ¦       ¦       phpmailer.lang-ar.php
+    ¦       ¦       phpmailer.lang-as.php
+    ¦       ¦       phpmailer.lang-az.php
+    ¦       ¦       phpmailer.lang-ba.php
+    ¦       ¦       phpmailer.lang-be.php
+    ¦       ¦       phpmailer.lang-bg.php
+    ¦       ¦       phpmailer.lang-bn.php
+    ¦       ¦       phpmailer.lang-ca.php
+    ¦       ¦       phpmailer.lang-cs.php
+    ¦       ¦       phpmailer.lang-da.php
+    ¦       ¦       phpmailer.lang-de.php
+    ¦       ¦       phpmailer.lang-el.php
+    ¦       ¦       phpmailer.lang-eo.php
+    ¦       ¦       phpmailer.lang-es.php
+    ¦       ¦       phpmailer.lang-et.php
+    ¦       ¦       phpmailer.lang-fa.php
+    ¦       ¦       phpmailer.lang-fi.php
+    ¦       ¦       phpmailer.lang-fo.php
+    ¦       ¦       phpmailer.lang-fr.php
+    ¦       ¦       phpmailer.lang-gl.php
+    ¦       ¦       phpmailer.lang-he.php
+    ¦       ¦       phpmailer.lang-hi.php
+    ¦       ¦       phpmailer.lang-hr.php
+    ¦       ¦       phpmailer.lang-hu.php
+    ¦       ¦       phpmailer.lang-hy.php
+    ¦       ¦       phpmailer.lang-id.php
+    ¦       ¦       phpmailer.lang-it.php
+    ¦       ¦       phpmailer.lang-ja.php
+    ¦       ¦       phpmailer.lang-ka.php
+    ¦       ¦       phpmailer.lang-ko.php
+    ¦       ¦       phpmailer.lang-ku.php
+    ¦       ¦       phpmailer.lang-lt.php
+    ¦       ¦       phpmailer.lang-lv.php
+    ¦       ¦       phpmailer.lang-mg.php
+    ¦       ¦       phpmailer.lang-mn.php
+    ¦       ¦       phpmailer.lang-ms.php
+    ¦       ¦       phpmailer.lang-nb.php
+    ¦       ¦       phpmailer.lang-nl.php
+    ¦       ¦       phpmailer.lang-pl.php
+    ¦       ¦       phpmailer.lang-pt.php
+    ¦       ¦       phpmailer.lang-pt_br.php
+    ¦       ¦       phpmailer.lang-ro.php
+    ¦       ¦       phpmailer.lang-ru.php
+    ¦       ¦       phpmailer.lang-si.php
+    ¦       ¦       phpmailer.lang-sk.php
+    ¦       ¦       phpmailer.lang-sl.php
+    ¦       ¦       phpmailer.lang-sr.php
+    ¦       ¦       phpmailer.lang-sr_latn.php
+    ¦       ¦       phpmailer.lang-sv.php
+    ¦       ¦       phpmailer.lang-tl.php
+    ¦       ¦       phpmailer.lang-tr.php
+    ¦       ¦       phpmailer.lang-uk.php
+    ¦       ¦       phpmailer.lang-ur.php
+    ¦       ¦       phpmailer.lang-vi.php
+    ¦       ¦       phpmailer.lang-zh.php
+    ¦       ¦       phpmailer.lang-zh_cn.php
+    ¦       ¦       
+    ¦       +---src
+    ¦               DSNConfigurator.php
+    ¦               Exception.php
+    ¦               OAuth.php
+    ¦               OAuthTokenProvider.php
+    ¦               PHPMailer.php
+    ¦               POP3.php
+    ¦               SMTP.php
+    ¦               
+    +---psr
+    ¦   +---cache
+    ¦   ¦   ¦   CHANGELOG.md
+    ¦   ¦   ¦   composer.json
+    ¦   ¦   ¦   LICENSE.txt
+    ¦   ¦   ¦   README.md
+    ¦   ¦   ¦   
+    ¦   ¦   +---src
+    ¦   ¦           CacheException.php
+    ¦   ¦           CacheItemInterface.php
+    ¦   ¦           CacheItemPoolInterface.php
+    ¦   ¦           InvalidArgumentException.php
+    ¦   ¦           
+    ¦   +---clock
+    ¦   ¦   ¦   CHANGELOG.md
+    ¦   ¦   ¦   composer.json
+    ¦   ¦   ¦   LICENSE
+    ¦   ¦   ¦   README.md
+    ¦   ¦   ¦   
+    ¦   ¦   +---src
+    ¦   ¦           ClockInterface.php
+    ¦   ¦           
+    ¦   +---http-client
+    ¦   ¦   ¦   CHANGELOG.md
+    ¦   ¦   ¦   composer.json
+    ¦   ¦   ¦   LICENSE
+    ¦   ¦   ¦   README.md
+    ¦   ¦   ¦   
+    ¦   ¦   +---src
+    ¦   ¦           ClientExceptionInterface.php
+    ¦   ¦           ClientInterface.php
+    ¦   ¦           NetworkExceptionInterface.php
+    ¦   ¦           RequestExceptionInterface.php
+    ¦   ¦           
+    ¦   +---http-factory
+    ¦   ¦   ¦   composer.json
+    ¦   ¦   ¦   LICENSE
+    ¦   ¦   ¦   README.md
+    ¦   ¦   ¦   
+    ¦   ¦   +---src
+    ¦   ¦           RequestFactoryInterface.php
+    ¦   ¦           ResponseFactoryInterface.php
+    ¦   ¦           ServerRequestFactoryInterface.php
+    ¦   ¦           StreamFactoryInterface.php
+    ¦   ¦           UploadedFileFactoryInterface.php
+    ¦   ¦           UriFactoryInterface.php
+    ¦   ¦           
+    ¦   +---http-message
+    ¦   ¦   ¦   CHANGELOG.md
+    ¦   ¦   ¦   composer.json
+    ¦   ¦   ¦   LICENSE
+    ¦   ¦   ¦   README.md
+    ¦   ¦   ¦   
+    ¦   ¦   +---docs
+    ¦   ¦   ¦       PSR7-Interfaces.md
+    ¦   ¦   ¦       PSR7-Usage.md
+    ¦   ¦   ¦       
+    ¦   ¦   +---src
+    ¦   ¦           MessageInterface.php
+    ¦   ¦           RequestInterface.php
+    ¦   ¦           ResponseInterface.php
+    ¦   ¦           ServerRequestInterface.php
+    ¦   ¦           StreamInterface.php
+    ¦   ¦           UploadedFileInterface.php
+    ¦   ¦           UriInterface.php
+    ¦   ¦           
+    ¦   +---log
+    ¦       ¦   composer.json
+    ¦       ¦   LICENSE
+    ¦       ¦   README.md
+    ¦       ¦   
+    ¦       +---src
+    ¦               AbstractLogger.php
+    ¦               InvalidArgumentException.php
+    ¦               LoggerAwareInterface.php
+    ¦               LoggerAwareTrait.php
+    ¦               LoggerInterface.php
+    ¦               LoggerTrait.php
+    ¦               LogLevel.php
+    ¦               NullLogger.php
+    ¦               
+    +---ralouphie
+    ¦   +---getallheaders
+    ¦       ¦   composer.json
+    ¦       ¦   LICENSE
+    ¦       ¦   README.md
+    ¦       ¦   
+    ¦       +---src
+    ¦               getallheaders.php
+    ¦               
+    +---ramsey
+    ¦   +---collection
+    ¦   ¦   ¦   composer.json
+    ¦   ¦   ¦   conventional-commits.json
+    ¦   ¦   ¦   LICENSE
+    ¦   ¦   ¦   README.md
+    ¦   ¦   ¦   SECURITY.md
+    ¦   ¦   ¦   
+    ¦   ¦   +---src
+    ¦   ¦       ¦   AbstractArray.php
+    ¦   ¦       ¦   AbstractCollection.php
+    ¦   ¦       ¦   AbstractSet.php
+    ¦   ¦       ¦   ArrayInterface.php
+    ¦   ¦       ¦   Collection.php
+    ¦   ¦       ¦   CollectionInterface.php
+    ¦   ¦       ¦   DoubleEndedQueue.php
+    ¦   ¦       ¦   DoubleEndedQueueInterface.php
+    ¦   ¦       ¦   GenericArray.php
+    ¦   ¦       ¦   Queue.php
+    ¦   ¦       ¦   QueueInterface.php
+    ¦   ¦       ¦   Set.php
+    ¦   ¦       ¦   Sort.php
+    ¦   ¦       ¦   
+    ¦   ¦       +---Exception
+    ¦   ¦       ¦       CollectionException.php
+    ¦   ¦       ¦       CollectionMismatchException.php
+    ¦   ¦       ¦       InvalidArgumentException.php
+    ¦   ¦       ¦       InvalidPropertyOrMethod.php
+    ¦   ¦       ¦       NoSuchElementException.php
+    ¦   ¦       ¦       OutOfBoundsException.php
+    ¦   ¦       ¦       UnsupportedOperationException.php
+    ¦   ¦       ¦       
+    ¦   ¦       +---Map
+    ¦   ¦       ¦       AbstractMap.php
+    ¦   ¦       ¦       AbstractTypedMap.php
+    ¦   ¦       ¦       AssociativeArrayMap.php
+    ¦   ¦       ¦       MapInterface.php
+    ¦   ¦       ¦       NamedParameterMap.php
+    ¦   ¦       ¦       TypedMap.php
+    ¦   ¦       ¦       TypedMapInterface.php
+    ¦   ¦       ¦       
+    ¦   ¦       +---Tool
+    ¦   ¦               TypeTrait.php
+    ¦   ¦               ValueExtractorTrait.php
+    ¦   ¦               ValueToStringTrait.php
+    ¦   ¦               
+    ¦   +---uuid
+    ¦       ¦   composer.json
+    ¦       ¦   LICENSE
+    ¦       ¦   README.md
+    ¦       ¦   
+    ¦       +---src
+    ¦           ¦   BinaryUtils.php
+    ¦           ¦   DegradedUuid.php
+    ¦           ¦   DeprecatedUuidInterface.php
+    ¦           ¦   DeprecatedUuidMethodsTrait.php
+    ¦           ¦   FeatureSet.php
+    ¦           ¦   functions.php
+    ¦           ¦   Uuid.php
+    ¦           ¦   UuidFactory.php
+    ¦           ¦   UuidFactoryInterface.php
+    ¦           ¦   UuidInterface.php
+    ¦           ¦   
+    ¦           +---Builder
+    ¦           ¦       BuilderCollection.php
+    ¦           ¦       DefaultUuidBuilder.php
+    ¦           ¦       DegradedUuidBuilder.php
+    ¦           ¦       FallbackBuilder.php
+    ¦           ¦       UuidBuilderInterface.php
+    ¦           ¦       
+    ¦           +---Codec
+    ¦           ¦       CodecInterface.php
+    ¦           ¦       GuidStringCodec.php
+    ¦           ¦       OrderedTimeCodec.php
+    ¦           ¦       StringCodec.php
+    ¦           ¦       TimestampFirstCombCodec.php
+    ¦           ¦       TimestampLastCombCodec.php
+    ¦           ¦       
+    ¦           +---Converter
+    ¦           ¦   ¦   NumberConverterInterface.php
+    ¦           ¦   ¦   TimeConverterInterface.php
+    ¦           ¦   ¦   
+    ¦           ¦   +---Number
+    ¦           ¦   ¦       BigNumberConverter.php
+    ¦           ¦   ¦       DegradedNumberConverter.php
+    ¦           ¦   ¦       GenericNumberConverter.php
+    ¦           ¦   ¦       
+    ¦           ¦   +---Time
+    ¦           ¦           BigNumberTimeConverter.php
+    ¦           ¦           DegradedTimeConverter.php
+    ¦           ¦           GenericTimeConverter.php
+    ¦           ¦           PhpTimeConverter.php
+    ¦           ¦           UnixTimeConverter.php
+    ¦           ¦           
+    ¦           +---Exception
+    ¦           ¦       BuilderNotFoundException.php
+    ¦           ¦       DateTimeException.php
+    ¦           ¦       DceSecurityException.php
+    ¦           ¦       InvalidArgumentException.php
+    ¦           ¦       InvalidBytesException.php
+    ¦           ¦       InvalidUuidStringException.php
+    ¦           ¦       NameException.php
+    ¦           ¦       NodeException.php
+    ¦           ¦       RandomSourceException.php
+    ¦           ¦       TimeSourceException.php
+    ¦           ¦       UnableToBuildUuidException.php
+    ¦           ¦       UnsupportedOperationException.php
+    ¦           ¦       UuidExceptionInterface.php
+    ¦           ¦       
+    ¦           +---Fields
+    ¦           ¦       FieldsInterface.php
+    ¦           ¦       SerializableFieldsTrait.php
+    ¦           ¦       
+    ¦           +---Generator
+    ¦           ¦       CombGenerator.php
+    ¦           ¦       DceSecurityGenerator.php
+    ¦           ¦       DceSecurityGeneratorInterface.php
+    ¦           ¦       DefaultNameGenerator.php
+    ¦           ¦       DefaultTimeGenerator.php
+    ¦           ¦       NameGeneratorFactory.php
+    ¦           ¦       NameGeneratorInterface.php
+    ¦           ¦       PeclUuidNameGenerator.php
+    ¦           ¦       PeclUuidRandomGenerator.php
+    ¦           ¦       PeclUuidTimeGenerator.php
+    ¦           ¦       RandomBytesGenerator.php
+    ¦           ¦       RandomGeneratorFactory.php
+    ¦           ¦       RandomGeneratorInterface.php
+    ¦           ¦       RandomLibAdapter.php
+    ¦           ¦       TimeGeneratorFactory.php
+    ¦           ¦       TimeGeneratorInterface.php
+    ¦           ¦       UnixTimeGenerator.php
+    ¦           ¦       
+    ¦           +---Guid
+    ¦           ¦       Fields.php
+    ¦           ¦       Guid.php
+    ¦           ¦       GuidBuilder.php
+    ¦           ¦       
+    ¦           +---Lazy
+    ¦           ¦       LazyUuidFromString.php
+    ¦           ¦       
+    ¦           +---Math
+    ¦           ¦       BrickMathCalculator.php
+    ¦           ¦       CalculatorInterface.php
+    ¦           ¦       RoundingMode.php
+    ¦           ¦       
+    ¦           +---Nonstandard
+    ¦           ¦       Fields.php
+    ¦           ¦       Uuid.php
+    ¦           ¦       UuidBuilder.php
+    ¦           ¦       UuidV6.php
+    ¦           ¦       
+    ¦           +---Provider
+    ¦           ¦   ¦   DceSecurityProviderInterface.php
+    ¦           ¦   ¦   NodeProviderInterface.php
+    ¦           ¦   ¦   TimeProviderInterface.php
+    ¦           ¦   ¦   
+    ¦           ¦   +---Dce
+    ¦           ¦   ¦       SystemDceSecurityProvider.php
+    ¦           ¦   ¦       
+    ¦           ¦   +---Node
+    ¦           ¦   ¦       FallbackNodeProvider.php
+    ¦           ¦   ¦       NodeProviderCollection.php
+    ¦           ¦   ¦       RandomNodeProvider.php
+    ¦           ¦   ¦       StaticNodeProvider.php
+    ¦           ¦   ¦       SystemNodeProvider.php
+    ¦           ¦   ¦       
+    ¦           ¦   +---Time
+    ¦           ¦           FixedTimeProvider.php
+    ¦           ¦           SystemTimeProvider.php
+    ¦           ¦           
+    ¦           +---Rfc4122
+    ¦           ¦       Fields.php
+    ¦           ¦       FieldsInterface.php
+    ¦           ¦       MaxTrait.php
+    ¦           ¦       MaxUuid.php
+    ¦           ¦       NilTrait.php
+    ¦           ¦       NilUuid.php
+    ¦           ¦       TimeTrait.php
+    ¦           ¦       UuidBuilder.php
+    ¦           ¦       UuidInterface.php
+    ¦           ¦       UuidV1.php
+    ¦           ¦       UuidV2.php
+    ¦           ¦       UuidV3.php
+    ¦           ¦       UuidV4.php
+    ¦           ¦       UuidV5.php
+    ¦           ¦       UuidV6.php
+    ¦           ¦       UuidV7.php
+    ¦           ¦       UuidV8.php
+    ¦           ¦       Validator.php
+    ¦           ¦       VariantTrait.php
+    ¦           ¦       VersionTrait.php
+    ¦           ¦       
+    ¦           +---Type
+    ¦           ¦       Decimal.php
+    ¦           ¦       Hexadecimal.php
+    ¦           ¦       Integer.php
+    ¦           ¦       NumberInterface.php
+    ¦           ¦       Time.php
+    ¦           ¦       TypeInterface.php
+    ¦           ¦       
+    ¦           +---Validator
+    ¦                   GenericValidator.php
+    ¦                   ValidatorInterface.php
+    ¦                   
+    +---rize
+    ¦   +---uri-template
+    ¦       ¦   composer.json
+    ¦       ¦   LICENSE
+    ¦       ¦   README.md
+    ¦       ¦   
+    ¦       +---src
+    ¦           +---Rize
+    ¦               ¦   UriTemplate.php
+    ¦               ¦   
+    ¦               +---UriTemplate
+    ¦                   ¦   Parser.php
+    ¦                   ¦   UriTemplate.php
+    ¦                   ¦   
+    ¦                   +---Node
+    ¦                   ¦       Abstraction.php
+    ¦                   ¦       Expression.php
+    ¦                   ¦       Literal.php
+    ¦                   ¦       Variable.php
+    ¦                   ¦       
+    ¦                   +---Operator
+    ¦                           Abstraction.php
+    ¦                           Named.php
+    ¦                           UnNamed.php
+    ¦                           
+    +---symfony
+        +---deprecation-contracts
+        ¦       CHANGELOG.md
+        ¦       composer.json
+        ¦       function.php
+        ¦       LICENSE
+        ¦       README.md
+        ¦       
+        +---polyfill-mbstring
+            ¦   bootstrap.php
+            ¦   bootstrap80.php
+            ¦   composer.json
+            ¦   LICENSE
+            ¦   Mbstring.php
+            ¦   README.md
+            ¦   
+            +---Resources
+                +---unidata
+                        caseFolding.php
+                        lowerCase.php
+                        titleCaseRegexp.php
+                        upperCase.php
+                        

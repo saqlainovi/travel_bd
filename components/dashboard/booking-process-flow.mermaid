@@ -1,0 +1,17 @@
+flowchart TD
+    A[User Browses Packages] --> B{Package Selected?}
+    B -->|Yes| C[Check Availability]
+    B -->|No| A
+    C --> D{Availability Confirmed?}
+    D -->|Yes| E[Enter Booking Details]
+    D -->|No| A
+    E --> F[Select Number of Persons]
+    F --> G[Review Booking Details]
+    G --> H[Proceed to Payment]
+    H --> I{Payment Successful?}
+    I -->|Yes| J[Generate Booking Confirmation]
+    I -->|No| H
+    J --> K[Send Confirmation Email]
+    K --> L[Update Booking Status]
+    L --> M[Add to User Bookings]
+    M --> N[End Process]

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Section - Travel Website</title>
+    <link rel="stylesheet" href="general.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <img src="/images/logo.png" alt="Logo">
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="main.html" data-tab="profile" class="tab-btn">My Profile</a></li>
+                    <li><a href="/profile_tab/tour_packages.html" data-tab="packages" class="tab-btn">Tour Packages</a></li>
+                    <li><a href="#" data-tab="booking" class="tab-btn active">Bookings</a></li>
+                    <li><a href="payment.html" data-tab="payment" class="tab-btn">Payment</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="header">
+                <h1>Booking Section</h1>
+                <p>Select your package and travel details</p>
+            </header>
+
+            <div class="tabs-container">
+                <!-- Booking Tab Content -->
+                <div class="tab-content active" id="booking">
+                    <form class="booking-form" id="booking-form">
+                        <div class="form-group">
+                            <label for="package-select">Select Package</label>
+                            <select id="package-select" name="package" required>
+                                <option value="" disabled selected>Select your package</option>
+                                <option value="Beach Paradise">Beach Paradise - $500</option>
+                                <option value="Mountain Adventure">Mountain Adventure - $650</option>
+                                <option value="City Escape">City Escape - $400</option>
+                                <option value="Desert Safari">Desert Safari - $700</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="travel-date">Travel Date</label>
+                            <input type="date" id="travel-date" name="travel-date" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="travelers">Number of Travelers</label>
+                            <input type="number" id="travelers" name="travelers" min="1" max="10" required>
+                        </div>
+
+                        <button type="submit" class="btn">Proceed to Booking</button>
+                        
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="general.css">
+</head>
+<body>
+    <div class="payment-section">
+        <h2>Complete Your Payment</h2>
+        <form id="payment-form" class="payment-form">
+            <!-- Select Payment Method -->
+            <div class="form-group">
+                <label for="payment-method">Choose Payment Method:</label>
+                <select id="payment-method" name="payment-method" required>
+                    <option value="" disabled selected>Select a payment method</option>
+                    <option value="manual">Manual Payment (Bank Transfer)</option>
+                    <option value="bkash">bKash</option>
+                    <option value="rocket">Rocket</option>
+                    <option value="nagad">Nagad</option>
+                </select>
+            </div>
+    
+            <!-- Manual Payment Section -->
+            <div id="manual-payment" class="payment-method-section" style="display:none;">
+                <h3>Manual Payment (Bank Transfer)</h3>
+                <p>Please transfer the amount to the following bank account:</p>
+                <p><strong>Bank Name:</strong> ABC Bank</p>
+                <p><strong>Account Number:</strong> 123456789</p>
+                <p><strong>Account Name:</strong> XYZ Company</p>
+                <p>After completing the transfer, please upload the transaction receipt below:</p>
+                <div class="form-group">
+                    <label for="receipt">Upload Receipt:</label>
+                    <input type="file" id="receipt" name="receipt" accept="image/*, application/pdf" required>
+                </div>
+            </div>
+    
+            <!-- bKash Payment Section -->
+            <div id="bkash-payment" class="payment-method-section" style="display:none;">
+                <h3>bKash Payment</h3>
+                <p>Send Money the payment to the following bKash number: <strong>+880123456789</strong></p>
+                <div class="form-group">
+                    <label for="bkash-txid">bKash Transaction ID:</label>
+                    <input type="text" id="bkash-txid" name="bkash-txid" placeholder="Enter bKash Transaction ID" required>
+                </div>
+            </div>
+    
+            <!-- Rocket Payment Section -->
+            <div id="rocket-payment" class="payment-method-section" style="display:none;">
+                <h3>Rocket Payment</h3>
+                <p>Send Money the payment to the following Rocket number: <strong>+880987654321</strong></p>
+                <div class="form-group">
+                    <label for="rocket-txid">Rocket Transaction ID:</label>
+                    <input type="text" id="rocket-txid" name="rocket-txid" placeholder="Enter Rocket Transaction ID" required>
+                </div>
+            </div>
+    
+            <!-- Nagad Payment Section -->
+            <div id="nagad-payment" class="payment-method-section" style="display:none;">
+                <h3>Nagad Payment</h3>
+                <p>Send Money the payment to the following Nagad number: <strong>+880112233445</strong></p>
+                <div class="form-group">
+                    <label for="nagad-txid">Nagad Transaction ID:</label>
+                    <input type="text" id="nagad-txid" name="nagad-txid" placeholder="Enter Nagad Transaction ID" required>
+                </div>
+            </div>
+    
+            <!-- Submit Button -->
+            <div class="form-group">
+                <button type="submit" class="btn">Submit Payment</button>
+            </div>
+        </form>
+
+    </div>
+    <!-- Payment Success Modal -->
+<div id="payment-success-modal" class="modal">
+    <div class="modal-content">
+        <h3>Payment Successful!</h3>
+        <p>Your payment has been successfully processed.</p>
+        <button id="close-modal" class="btn">Close</button>
+    </div>
+    <script src="payment.js"></script>
+    
+</body>
+</html>

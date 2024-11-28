@@ -1,0 +1,66 @@
+erDiagram
+    USERS ||--o{ BOOKINGS : makes
+    USERS ||--o{ REVIEWS : writes
+    PACKAGES ||--o{ BOOKINGS : has
+    PACKAGES ||--o{ REVIEWS : receives
+    DESTINATIONS ||--o{ REVIEWS : receives
+    DESTINATIONS {
+        int id PK
+        string name
+        text description
+        string location
+        string division
+        string type
+        string image_url
+        decimal rating
+    }
+    USERS {
+        int id PK
+        string first_name
+        string last_name
+        string email
+        string password
+        string phone
+        enum user_type
+        datetime created_at
+    }
+    PACKAGES {
+        int id PK
+        string title
+        text description
+        decimal price
+        string duration
+        string tour_type
+        text included_features
+        string image_url
+        decimal rating
+    }
+    BOOKINGS {
+        int id PK
+        int user_id FK
+        int package_id FK
+        date booking_date
+        date travel_date
+        int number_of_persons
+        decimal total_amount
+        enum status
+        enum payment_status
+    }
+    REVIEWS {
+        int id PK
+        int user_id FK
+        int package_id FK
+        int destination_id FK
+        int rating
+        text comment
+        datetime created_at
+    }
+    CONTACT_MESSAGES {
+        int id PK
+        string name
+        string email
+        string subject
+        text message
+        enum status
+        datetime created_at
+    }
