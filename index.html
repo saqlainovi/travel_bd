@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BD Adventures - Welcome</title>
+    <title>BD Adventures - Explore Bangladesh</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
+    <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
             <a href="index.html" class="logo">BD Adventures</a>
@@ -20,20 +22,227 @@
         </div>
     </nav>
 
-    <main>
-        <section class="hero">
-            <div class="container">
-                <h1>Welcome to BD Adventures</h1>
-                <p>Explore the beautiful Bangladesh with us</p>
-                <a href="destination.html" class="cta-button">Start Exploring</a>
+    <!-- Hero Slider Section -->
+    <div class="hero-slider">
+        <div class="slider-container">
+            <div class="slide fade">
+                <img src="images/screenshot_1.png" alt="Cox's Bazar">
+                <div class="slide-content">
+                    <h1>Discover Cox's Bazar</h1>
+                    <p>Experience the world's longest natural sea beach</p>
+                    <a href="destination.html" class="cta-button">Explore Now</a>
+                </div>
             </div>
-        </section>
-    </main>
+            <div class="slide fade">
+                <img src="images/sundarban.webp" alt="Sundarbans">
+                <div class="slide-content">
+                    <h1>Explore Sundarbans</h1>
+                    <p>Adventure through the world's largest mangrove forest</p>
+                    <a href="destination.html" class="cta-button">Book Tour</a>
+                </div>
+            </div>
+            <div class="slide fade">
+                <img src="images/sajek-valley.jpg" alt="Sajek Valley">
+                <div class="slide-content">
+                    <h1>Visit Sajek Valley</h1>
+                    <p>Touch the clouds in the queen of hills</p>
+                    <a href="destination.html" class="cta-button">Plan Trip</a>
+                </div>
+            </div>
+            
+            <button class="slider-btn prev">❮</button>
+            <button class="slider-btn next">❯</button>
+            
+            <div class="slider-dots">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </div>
 
+    <!-- Booking Form Section -->
+    <div class="booking-section">
+        <div class="container">
+            <form class="booking-form" id="bookingForm">
+                <h2>Plan Your Adventure</h2>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="destination">Destination</label>
+                        <select id="destination" name="package_id" required>
+                            <option value="">Select Destination</option>
+                            <option value="1">Cox's Bazar</option>
+                            <option value="2">Sundarbans</option>
+                            <option value="3">Sajek Valley</option>
+                            <option value="4">Bandarban</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="check-in">Check In</label>
+                        <input type="date" id="check-in" name="check_in" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="check-out">Check Out</label>
+                        <input type="date" id="check-out" name="check_out" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="guests">Guests</label>
+                        <select id="guests" name="number_of_persons" required>
+                            <option value="1">1 Guest</option>
+                            <option value="2">2 Guests</option>
+                            <option value="3">3 Guests</option>
+                            <option value="4">4 Guests</option>
+                            <option value="5">5+ Guests</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="button" class="submit-btn" id="submitButton">Check Availability</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Discount Banner -->
+    <div class="discount-banner">
+        <div class="banner-background"></div>
+        <div class="rolling-tags"></div>
+        <div class="discount-content">
+            <div class="discount-icon">🎉</div>
+            <div class="banner-text">
+                <span class="highlight">10% OFF</span> 
+                <span class="discount-details">on your first adventure!</span>
+                <span class="discount-sub">Sign up now and start exploring</span>
+                <a href="register.html" class="signup-btn">
+                    Sign Up <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popular Destinations Section -->
+    <section class="destinations-section">
+        <div class="container">
+            <h2 class="section-title">Explore Destinations</h2>
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <img src="images/banglar-tajmohol.webp" alt="Banglar Taj Mahal">
+                    <div class="destination-content">
+                        <h3>Banglar Taj Mahal</h3>
+                        <p>Relax on the most stunning beaches around the world</p>
+                        <a href="destination.html?place=banglar-taj-mahal" class="learn-more">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="destination-card">
+                    <img src="images/sonargaon-museum.webp" alt="Sonargaon Museum">
+                    <div class="destination-content">
+                        <h3>Sonargaon Museum</h3>
+                        <p>Embark on thrilling adventures in the mountains</p>
+                        <a href="destination.html?place=sonargaon-museum" class="learn-more">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="destination-card">
+                    <img src="images/shishu-park.png" alt="National Shishu Park">
+                    <div class="destination-content">
+                        <h3>National Shishu Park</h3>
+                        <p>Discover the excitement of the world's greatest cities</p>
+                        <a href="destination.html?place=national-shishu-park" class="learn-more">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="destination.html" class="see-more-btn">See more</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2023 BD Adventures. All rights reserved.</p>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>BD Adventures</h3>
+                    <p>Your gateway to exploring the beautiful Bangladesh</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="contact_us.html">Contact</a></li>
+                        <li><a href="destination.html">Destinations</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Email: info@bdadventures.com</p>
+                    <p>Phone: +880 1234-567890</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 BD Adventures. All rights reserved.</p>
+            </div>
         </div>
     </footer>
+
+    <script>
+        // Slider functionality
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let slides = document.getElementsByClassName("slide");
+            let dots = document.getElementsByClassName("dot");
+            
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            
+            setTimeout(showSlides, 5000);
+        }
+
+        // Form submission
+        document.getElementById('submitButton').addEventListener('click', function() {
+            const destination = document.getElementById('destination').value;
+            if (destination) {
+                window.location.href = `destination.html?id=${destination}`;
+            } else {
+                alert('Please select a destination');
+            }
+        });
+
+        // Date validation
+        document.getElementById('check-in').addEventListener('change', function() {
+            const today = new Date();
+            const selectedDate = new Date(this.value);
+            const checkOut = document.getElementById('check-out');
+            
+            if (selectedDate < today) {
+                alert('Please select a future date');
+                this.value = '';
+                return;
+            }
+            
+            checkOut.min = this.value;
+            if (checkOut.value && new Date(checkOut.value) <= selectedDate) {
+                checkOut.value = '';
+            }
+        });
+    </script>
 </body>
 </html> 
