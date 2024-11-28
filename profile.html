@@ -1,32 +1,168 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile - Tour Packages</title>
-    <link rel="stylesheet" href="profile.css">
-</head>
-<body>
-    <div class="dashboard-container">
-        <!-- Sidebar -->
-        <aside class="sidebar">
-            <div class="logo" >
-                <img src="images/logo.png" alt="Logo">
-            </div>
-            <nav class="sidebar-nav">
-                <ul>
-                    <li><a href="/profile_tab/main.html" data-tab="profile" class="tab-btn">My Profile</a></li>
-                    <li><a href="/profile_tab/tour_packages.html" data-tab="packages" class="tab-btn">Tour Packages</a></li>
-                    <li><a href="/profile_tab/booking.html" data-tab="booking" class="tab-btn">Bookings</a></li>
-                    <li><a href="#" data-tab="payment" class="tab-btn">Payment</a></li>
-                    <li><a href="#">Logout</a></li>
-                </ul>
-            </nav>
-        </aside>
 
-        
-         </div>
-        
-    <script src="profile.js"></script>
-</body>
-</html>
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            
+                <div class="alert alert-danger">
+                    
+                    <a href="login.html" class="btn btn-primary mt-2">Return to Login</a>
+                </div>
+            
+
+            
+                <div class="alert alert-success">
+                    
+                </div>
+            
+
+            
+                <div class="alert alert-danger">
+                    
+                </div>
+            
+
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="mb-0">My Profile</h3>
+                    
+                        <small class="text-muted">Google Account</small>
+                    
+                </div>
+                <div class="card-body">
+                    <form action="update_profile.html" method="POST" class="profile-form">
+                        <div class="profile-info">
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <strong>First Name:</strong>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="text" name="first_name" class="form-control" 
+                                        value="" 
+                                        >
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <strong>Last Name:</strong>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="text" name="last_name" class="form-control" 
+                                        value=""
+                                        >
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <strong>Email:</strong>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="email" name="email" class="form-control" 
+                                        value="" readonly>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <strong>Phone:</strong>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="tel" name="phone" class="form-control" 
+                                        value="">
+                                </div>
+                            </div>
+                            
+                            <!-- Password Change Section -->
+                            <div class="password-change-section mt-4">
+                                <h4 class="mb-3">Change Password</h4>
+                                <div class="row mb-3">
+                                    <div class="col-md-4">
+                                        <strong>Current Password:</strong>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <input type="password" name="current_password" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-md-4">
+                                        <strong>New Password:</strong>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <input type="password" name="new_password" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-md-4">
+                                        <strong>Confirm Password:</strong>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <input type="password" name="confirm_password" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-4">
+                                <div class="col-12">
+                                    <button type="submit" name="update_profile" class="btn btn-primary">Update Profile</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.profile-form input.form-control {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    transition: border-color 0.3s;
+}
+
+.profile-form input.form-control:focus {
+    border-color: #446A46;
+    box-shadow: 0 0 0 0.2rem rgba(68, 106, 70, 0.25);
+}
+
+.profile-form input[readonly] {
+    background-color: #f8f9fa;
+}
+
+.btn-primary {
+    background-color: #446A46;
+    border-color: #446A46;
+}
+
+.btn-primary:hover {
+    background-color: #385839;
+    border-color: #385839;
+}
+
+.password-change-section {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+</style>
+
+ 

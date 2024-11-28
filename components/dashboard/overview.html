@@ -1,0 +1,81 @@
+
+
+<div class="overview-container">
+    <!-- Statistics Cards -->
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="stat-icon">
+                <i class="fas fa-ticket-alt"></i>
+            </div>
+            <div class="stat-content">
+                <h3>Total Bookings</h3>
+                <p><?= htmlspecialchars($stats['total_bookings'] ?? 0) ?></p>
+            </div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon">
+                <i class="fas fa-money-bill-wave"></i>
+            </div>
+            <div class="stat-content">
+                <h3>Total Spent</h3>
+                <p>৳<?= number_format(floatval($stats['total_spent'] ?? 0), 2) ?></p>
+            </div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon">
+                <i class="fas fa-clock"></i>
+            </div>
+            <div class="stat-content">
+                <h3>Pending Bookings</h3>
+                <p><?= htmlspecialchars($stats['pending_bookings'] ?? 0) ?></p>
+            </div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <div class="stat-content">
+                <h3>Confirmed Bookings</h3>
+                <p><?= htmlspecialchars($stats['confirmed_bookings'] ?? 0) ?></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recent Bookings -->
+    <div class="recent-bookings">
+        <h2>Recent Bookings</h2>
+        
+            <div class="no-bookings">
+                <i class="fas fa-calendar-times"></i>
+                <p>No bookings found. Start planning your adventure today!</p>
+                <a href="../destinations.html" class="btn-explore">Explore Packages</a>
+            </div>
+        
+            <div class="bookings-list">
+                
+                    <div class="booking-card">
+                        <div class="booking-image">
+                            <img src="<?= htmlspecialchars($booking['image_url']) ?>" 
+                                 alt="<?= htmlspecialchars($booking['title']) ?>"
+                                 onerror="this.src='images/default-package.jpg'">
+                        </div>
+                        <div class="booking-info">
+                            <h3><?= htmlspecialchars($booking['title']) ?></h3>
+                            <div class="booking-details">
+                                <p><i class="far fa-calendar"></i> Travel Date: <?= htmlspecialchars($booking['travel_date']) ?></p>
+                                <p><i class="fas fa-users"></i> Persons: <?= htmlspecialchars($booking['number_of_persons']) ?></p>
+                                <p><i class="fas fa-money-bill-wave"></i> Amount: ৳<?= number_format(floatval($booking['total_amount']), 2) ?></p>
+                                <p class="booking-status">
+                                    <i class="fas fa-info-circle"></i> 
+                                    Status: <span class="status-<?= htmlspecialchars($booking['status']) ?>">
+                                        <?= ucfirst(htmlspecialchars($booking['status'])) ?>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+        
+    </div>
+</div> 

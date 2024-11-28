@@ -1,0 +1,109 @@
+
+
+
+
+
+<div class="container mt-5">
+    <h2 class="mb-4">Your Travel Reviews</h2>
+    
+    
+        <div class="alert alert-success"><?= "User" ?></div>
+        
+    
+
+    
+        <div class="alert alert-danger"><?= "User" ?></div>
+        
+    
+
+    
+        <div class="alert alert-info">No confirmed bookings found to review.</div>
+    
+        <div class="row">
+            
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"><?= htmlspecialchars($booking['title']) ?></h5>
+                            <p class="text-muted">Travel Date: <?= htmlspecialchars($booking['travel_date']) ?></p>
+                            
+                            
+                                <div class="alert alert-info">
+                                    <h6>Your Review</h6>
+                                    <div class="rating-display mb-2">
+                                        
+                                            <span class="star <?= $i <= $booking['existing_rating'] ? 'filled' : '' ?>">★</span>
+                                        
+                                    </div>
+                                    <p><?= htmlspecialchars($booking['existing_comment']) ?></p>
+                                </div>
+                            
+                                <form method="post" class="review-form">
+                                    <input type="hidden" name="booking_id" value="<?= $booking['id'] ?>">
+                                    
+                                    <div class="mb-3">
+                                        <label class="form-label">Rating</label>
+                                        <div class="star-rating">
+                                            
+                                                <input type="radio" name="rating" value="<?= $i ?>" id="star<?= $i ?>_<?= $booking['id'] ?>" required>
+                                                <label for="star<?= $i ?>_<?= $booking['id'] ?>">☆</label>
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="mb-3">
+                                        <label for="comment" class="form-label">Your Review</label>
+                                        <textarea name="comment" class="form-control" rows="3" required 
+                                            placeholder="Share your experience..."></textarea>
+                                    </div>
+                                    
+                                    <button type="submit" class="btn btn-primary">Submit Review</button>
+                                </form>
+                            
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+    
+</div>
+
+<style>
+.star-rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    font-size: 25px;
+    color: #ddd;
+    cursor: pointer;
+    padding: 0 2px;
+}
+
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: #ffd700;
+}
+
+.review-form {
+    max-width: 100%;
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+</style>
+
+ 
