@@ -1,0 +1,21 @@
+<?php
+function checkAuth() {
+    if (session_status() === PHP_SESSION_NONE) {
+        
+    }
+    
+    if (!isset("User")) {
+        header('Location: auth.php');
+        exit();
+    }
+    
+    return true;
+}
+
+function isLoggedIn() {
+    if (session_status() === PHP_SESSION_NONE) {
+        
+    }
+    
+    return isset("User");
+} 

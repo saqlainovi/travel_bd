@@ -1,0 +1,72 @@
+
+
+<div class="payment-info">
+    <h2><i class="fas fa-credit-card"></i> Payment Information</h2>
+
+    <div class="payment-stats">
+        <div class="stat-card">
+            <div class="stat-icon">
+                <i class="fas fa-money-bill-wave"></i>
+            </div>
+            <div class="stat-content">
+                <h3>Total Paid</h3>
+                <p>৳<?= number_format($payment_stats['total_paid'] ?? 0, 2) ?></p>
+            </div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon">
+                <i class="fas fa-clock"></i>
+            </div>
+            <div class="stat-content">
+                <h3>Pending Amount</h3>
+                <p>৳<?= number_format($payment_stats['total_pending'] ?? 0, 2) ?></p>
+            </div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <div class="stat-content">
+                <h3>Completed Payments</h3>
+                <p><?= $payment_stats['completed_payments'] ?? 0 ?></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="recent-payments">
+        <h3>Recent Payments</h3>
+        
+            <div class="no-payments">
+                <i class="fas fa-receipt"></i>
+                <p>No payment history found.</p>
+            </div>
+        
+            <div class="payments-table-container">
+                <table class="payments-table">
+                    <thead>
+                        <tr>
+                            <th>Package</th>
+                            <th>Date</th>
+                            <th>Amount</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                            <tr>
+                                <td><?= htmlspecialchars($payment['title']) ?></td>
+                                <td><?= htmlspecialchars($payment['created_at']) ?></td>
+                                <td>৳<?= number_format($payment['total_amount'], 2) ?></td>
+                                <td>
+                                    <span class="payment-badge payment-<?= htmlspecialchars($payment['payment_status']) ?>">
+                                        <?= ucfirst(htmlspecialchars($payment['payment_status'])) ?>
+                                    </span>
+                                </td>
+                            </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        
+    </div>
+</div> 

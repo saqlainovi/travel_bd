@@ -3,214 +3,229 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Traveling Website</title>
+    <title>BD Adventures - Explore Bangladesh</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/profile_tab/chatbot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <!-- Menu Bar -->
-    <header>
-        <nav class="navbar">
-            <div class="brand">
-                <a href="#">BD Adventures</a>
-            </div>
-            <div class="menu-icon" id="menu-icon">
-                ☰
-            </div>
-            <ul class="nav-links" id="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="about_us.html">About</a></li>
-                <li><a href="destination.html">Destination</a></li>
-                <li><a href="contact_us.html">Contact</a></li>
-                <li><a href="register.html">Register</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Carousel Section -->
-    <section class="carousel">
-        <div class="carousel-container">
-            <div class="carousel-slide active">
-                <img src="images/Screenshot_1.png" alt="Travel Image 1">
-                <div class="carousel-text">Explore the World</div>
-            </div>
-            <div class="carousel-slide">
-                <img src="images/Screenshot_2.png" alt="Travel Image 2">
-                <div class="carousel-text">Discover New Destinations</div>
-            </div>
-            <div class="carousel-slide">
-                <img src="images/Screenshot_3.png" alt="Travel Image 3">
-                <div class="carousel-text">Adventure Awaits</div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">BD Adventures</a>
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="destination.html">Destinations</a>
+                <a href="about_us.html">About Us</a>
+                <a href="contact_us.html">Contact</a>
+                <a href="login.html" class="login-btn">Login</a>
             </div>
         </div>
-        <!-- Navigation Arrows -->
-        <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
-        <a class="next" onclick="moveSlide(1)">&#10095;</a>
-    </section>
-        <!-- Booking section -->
-    <section class="booking-form">
-        <div class="form-container">
-            <h2>Book Your Trip</h2>
-            <form>
-                <div class="form-group">
-                    <label for="from">From</label>
-                    <select id="from" name="from" required>
-                        <option value="" disabled selected>Select departure</option>
-                        <option value="Dhaka">Dhaka</option>
-                        <option value="Chittagong">Chittagong</option>
-                        <option value="Sylhet">Sylhet</option>
-                        <option value="Khulna">Khulna</option>
-                    </select>
-                </div>
+    </nav>
 
-                <div class="form-group">
-                    <label for="to">To</label>
-                    <select id="to" name="to" required>
-                        <option value="" disabled selected>Select destination</option>
-                        <option value="Dhaka">Dhaka</option>
-                        <option value="Chittagong">Chittagong</option>
-                        <option value="Sylhet">Sylhet</option>
-                        <option value="Khulna">Khulna</option>
-                    </select>
+    <!-- Hero Slider Section -->
+    <div class="hero-slider">
+        <div class="slider-container">
+            <div class="slide fade">
+                <img src="images/screenshot_1.png" alt="Cox's Bazar">
+                <div class="slide-content">
+                    <h1>Discover Cox's Bazar</h1>
+                    <p>Experience the world's longest natural sea beach</p>
+                    <a href="destinations.html" class="cta-button">Explore Now</a>
                 </div>
+            </div>
+            <div class="slide fade">
+                <img src="images/sundarban.webp" alt="Sundarbans">
+                <div class="slide-content">
+                    <h1>Explore Sundarbans</h1>
+                    <p>Adventure through the world's largest mangrove forest</p>
+                    <a href="destinations.html" class="cta-button">Book Tour</a>
+                </div>
+            </div>
+            <div class="slide fade">
+                <img src="images/sajek-valley.jpg" alt="Sajek Valley">
+                <div class="slide-content">
+                    <h1>Visit Sajek Valley</h1>
+                    <p>Touch the clouds in the queen of hills</p>
+                    <a href="destinations.html" class="cta-button">Plan Trip</a>
+                </div>
+            </div>
+            
+            <button class="slider-btn prev">❮</button>
+            <button class="slider-btn next">❯</button>
+            
+            <div class="slider-dots">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </div>
 
-                <div class="form-group">
-                    <label for="departure">Departure Date</label>
-                    <input type="date" id="departure" name="departure" required>
+    <!-- Booking Form Section -->
+    <div class="booking-section">
+        <div class="container">
+            <form class="booking-form" id="bookingForm">
+                <h2>Plan Your Adventure</h2>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="destination">Destination</label>
+                        <select id="destination" name="package_id" required>
+                            <option value="">Select Destination</option>
+                            <option value="1">Cox's Bazar</option>
+                            <option value="2">Sundarbans</option>
+                            <option value="3">Sajek Valley</option>
+                            <option value="4">Bandarban</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="check-in">Check In</label>
+                        <input type="date" id="check-in" name="check_in" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="check-out">Check Out</label>
+                        <input type="date" id="check-out" name="check_out" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="guests">Guests</label>
+                        <select id="guests" name="number_of_persons" required>
+                            <option value="1">1 Guest</option>
+                            <option value="2">2 Guests</option>
+                            <option value="3">3 Guests</option>
+                            <option value="4">4 Guests</option>
+                            <option value="5">5+ Guests</option>
+                        </select>
+                    </div>
                 </div>
-
-                <div class="form-group">
-                    <label for="return">Return Date</label>
-                    <input type="date" id="return" name="return">
-                </div>
-
-                <div class="form-group">
-                    <button type="submit" class="submit-btn">Search</button>
-                </div>
+                <button type="button" class="submit-btn" id="submitButton">Check Availability</button>
             </form>
         </div>
-       
-    </section>
-
-    <!-- Responsive Banner Section with Sign-up Button -->
-<section class="banner-section">
-    <div class="banner-content">
-        <h2>For 10% discount on your first trip, simply sign up here!</h2>
-        <a href="register.html" class="signup-btn">Sign Up</a>
-    </div>
-</section>
-
-    <!-- Card section -->
-    <section class="card-section">
-        <h2>Explore Destinations</h2>
-        <div class="cards-container">
-            <div class="card">
-                <img src="images/banglar-tajmohol.webp" alt="Destination 1">
-                <div class="card-content">
-                    <h3>Banglar Taj Mahal</h3>
-                    <p>Relax on the most stunning beaches around the world.</p>
-                    <a href="card1.html " target="_blank" class="btn">Learn More</a>
-                </div>
-            </div>
-            <div class="card">
-                <img src="images/sonargaon-museum.webp" alt="Destination 2">
-                <div class="card-content">
-                    <h3>Sonargaon Museum</h3>
-                    <p>Embark on thrilling adventures in the mountains.</p>
-                    <a href="card2.html" class="btn">Learn More</a>
-                </div>
-            </div>
-            <div class="card">
-                <img src="images/shishu-park.png" alt="Destination 3">
-                <div class="card-content">
-                    <h3>National Shishu Park</h3>
-                    <p>Discover the excitement of the world's greatest cities.</p>
-                    <a href="card3.html" class="btn">Learn More</a>
-                </div>
-            </div>
-            
-        </div>
-        </div>
-    </section>
-            
-               <section class="card-section">
-                <div class="card-content">
-                    <a href="destination.html" class="btn"> See more</a>
-                </div>
-               </section>
-          
-                <!-- footer section -->
-    <section>
-
-    <footer>
-        <div class="footer-container">
-            <div class="footer-column">
-                <h3>About Us</h3>
-                <p>
-                    We are your go-to platform for all travel needs. Explore new destinations, book hotels and flights, and make your next adventure unforgettable.
-                </p>
-            </div>
-
-            <div class="footer-column">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="destination.html">Destinations</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="contact_us.html">Contact us</a></li>
-                    <li><a href="about_us.html">About Us</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-column">
-                <h3>Contact Us</h3>
-                <ul>
-                    <li><a href="mailto:support@travelwebsite.com">support@nidwbd.com</a></li>
-                    <li><a href="tel:+1234567890">+8801923638771</a></li>
-                    <li><address>370/1, West Shewrapra, Dhaka 1216</address></li>
-                </ul>
-            </div>
-
-            <div class="footer-column">
-                <h3>Follow Us</h3>
-                <div class="social-icons">
-                    <a href="nidwbd.com"><img src="images/facebook.png" alt="Facebook"></a>
-                    <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
-                    <a href="#"><img src="images/github.png" alt="Git Hub"></a>
-                    <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
-                </div>
-            </div>
-        </div>
-
-        <div class="footer-bottom">
-            <p>&copy; 2024 Travel Website. All rights reserved.</p>
-        </div>
-        </footer>
-    </section>
-     <!-- Live Chat Button -->
-    <div id="chat-icon">
-        <img src="images/chatbot.jpg" alt="Chatbot Icon">
-        <div class="chat-notification">1</div>
     </div>
 
-    <!-- Chatbox -->
-    <div id="chat-box">
-        <div id="chat-header">
-            <h3>Live Chat</h3>
-            <button id="close-chat">X</button>
-        </div>
-        <div id="chat-body">
-            <div class="chat-message bot-message">
-                Hello! How can I assist you today?
+    <!-- Discount Banner -->
+    <div class="discount-banner">
+        <div class="banner-background"></div>
+        <div class="rolling-tags"></div>
+        <div class="discount-content">
+            <div class="discount-icon">🎉</div>
+            <div class="banner-text">
+                <span class="highlight">10% OFF</span> 
+                <span class="discount-details">on your first adventure!</span>
+                <span class="discount-sub">Sign up now and start exploring</span>
+                <a href="register.html" class="signup-btn">
+                    Sign Up <i class="fas fa-arrow-right"></i>
+                </a>
             </div>
         </div>
-        <div id="chat-footer">
-            <input type="text" id="chat-input" placeholder="Type your message...">
-            <button id="send-btn">Send</button>
-        </div>
     </div>
+
+    <!-- Popular Destinations Section -->
+    <section class="destinations-section">
+        <div class="container">
+            <h2 class="section-title">Explore Destinations</h2>
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <img src="images/banglar-tajmohol.webp" alt="Banglar Taj Mahal">
+                    <div class="destination-content">
+                        <h3>Banglar Taj Mahal</h3>
+                        <p>Relax on the most stunning beaches around the world</p>
+                        <a href="destinations.html?place=banglar-taj-mahal" class="learn-more">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="destination-card">
+                    <img src="images/sonargaon-museum.webp" alt="Sonargaon Museum">
+                    <div class="destination-content">
+                        <h3>Sonargaon Museum</h3>
+                        <p>Embark on thrilling adventures in the mountains</p>
+                        <a href="destinations.html?place=sonargaon-museum" class="learn-more">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="destination-card">
+                    <img src="images/shishu-park.png" alt="National Shishu Park">
+                    <div class="destination-content">
+                        <h3>National Shishu Park</h3>
+                        <p>Discover the excitement of the world's greatest cities</p>
+                        <a href="destinations.html?place=national-shishu-park" class="learn-more">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="destination.html" class="see-more-btn">See more</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>BD Adventures</h3>
+                    <p>Your gateway to exploring the beautiful Bangladesh</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="contact_us.html">Contact</a></li>
+                        <li><a href="destination.html">Destinations</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Email: info@bdadventures.com</p>
+                    <p>Phone: +880 1234-567890</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 BD Adventures. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
     <script src="scripts.js"></script>
-    <script src="menu.js"></script>
-    <script src="/profile_tab/chatbot.js"></script>
+    <script>
+        // Slider functionality
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let slides = document.getElementsByClassName("slide");
+            let dots = document.getElementsByClassName("dot");
+            
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            
+            setTimeout(showSlides, 5000);
+        }
+
+        // Form submission
+        document.getElementById('submitButton').addEventListener('click', function() {
+            const destination = document.getElementById('destination').value;
+            if (destination) {
+                window.location.href = `destinations.html?id=${destination}`;
+            } else {
+                alert('Please select a destination');
+            }
+        });
+    </script>
 </body>
-</html>
+</html> 

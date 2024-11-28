@@ -1,0 +1,42 @@
+
+
+<div class="upcoming-tours">
+    <h2><i class="fas fa-plane-departure"></i> Upcoming Tours</h2>
+
+    
+        <div class="no-tours">
+            <i class="fas fa-calendar-times"></i>
+            <p>No upcoming tours found. Ready to plan your next adventure?</p>
+            <a href="../destinations.html" class="btn-explore">Explore Packages</a>
+        </div>
+    
+        <div class="tours-grid">
+            
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="<?= htmlspecialchars($tour['image_url'] ?? 'images/default-package.jpg') ?>" 
+                             alt="<?= htmlspecialchars($tour['title']) ?>">
+                        <span class="tour-type"><?= htmlspecialchars($tour['tour_type']) ?></span>
+                    </div>
+                    <div class="tour-details">
+                        <h3><?= htmlspecialchars($tour['title']) ?></h3>
+                        <div class="tour-info">
+                            <p><i class="far fa-calendar"></i> Travel Date: <?= htmlspecialchars($tour['travel_date']) ?></p>
+                            <p><i class="fas fa-clock"></i> Duration: <?= htmlspecialchars($tour['duration']) ?></p>
+                            <p><i class="fas fa-users"></i> Persons: <?= htmlspecialchars($tour['number_of_persons']) ?></p>
+                            <p><i class="fas fa-money-bill-wave"></i> Total: ৳<?= number_format($tour['total_amount'], 2) ?></p>
+                        </div>
+                        <div class="tour-status">
+                            <span class="status-badge status-<?= htmlspecialchars($tour['status']) ?>">
+                                <?= ucfirst(htmlspecialchars($tour['status'])) ?>
+                            </span>
+                            <span class="payment-badge payment-<?= htmlspecialchars($tour['payment_status']) ?>">
+                                Payment: <?= ucfirst(htmlspecialchars($tour['payment_status'])) ?>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+    
+</div> 
